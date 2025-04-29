@@ -20,7 +20,7 @@ then
 fi
 cd / || exit 1
 
-if [[ -f /opt/fmc_repository/paloalto-prisma-sdwan-ms/.devops ]]; then
+if [[ -f /opt/fmc_repository/paloalto-prisma-ms/.devops ]]; then
 	log_info "👾 Skipping upgrade for fellow developer."
 	exit 0
 fi

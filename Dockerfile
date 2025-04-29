@@ -6,12 +6,12 @@ WORKDIR /home/ncuser
 ENV BIN_DIR=/opt/fmc_repository/Process/PythonReference/bin
 RUN install_default_dirs.sh
 
-# Install paloalto-prisma-sdwan-ms {{{
-COPY --chown=1000:1000 . /opt/fmc_repository/paloalto-prisma-sdwan-ms
-RUN install_repo_deps.sh /opt/fmc_repository/paloalto-prisma-sdwan-ms/
+# Install paloalto-prisma-ms {{{
+COPY --chown=1000:1000 . /opt/fmc_repository/paloalto-prisma-ms
+RUN install_repo_deps.sh /opt/fmc_repository/paloalto-prisma-ms/
 
 # Cleanup repository {{{
-RUN rm -rf /opt/fmc_repository/paloalto-prisma-sdwan-ms/{.git,docker,Dockerfile}
+RUN rm -rf /opt/fmc_repository/paloalto-prisma-ms/{.git,docker,Dockerfile}
 # }}}
 # Build tarball {{{
 RUN echo "⏳ Creating fmc-repository.tar.xz" && \
