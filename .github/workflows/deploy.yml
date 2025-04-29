@@ -10,7 +10,7 @@ on:
       - next_release/*
       - release/*
 env:
-  CONTAINER_NAME: ubiqube/cld-paloalto-prisma-sdwan-ms-installer
+  CONTAINER_NAME: ubiqube/cld-paloalto-prisma-ms-installer
 
 jobs:
   build-and-publish:
