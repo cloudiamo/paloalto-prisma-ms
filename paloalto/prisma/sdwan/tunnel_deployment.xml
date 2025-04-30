@@ -1,0 +1,262 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>PrismaSDWAN_Tunnel_deployment</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="The ID." groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="activate" name="params.activate" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="enabled" name="params.enabled" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.remote_network_groups.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="false" arrayCanRemove="false" arrayCanMove="false" arrayCanEdit="false" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="enabled wan interface ids" name="params.enabled_wan_interface_ids" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="The WAN enabled interface IDs." groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="4" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="anti-replay" name="params.ipsec_tunnel_configs.0.anti_replay" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="5" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="copy tos" name="params.ipsec_tunnel_configs.0.copy_tos" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="6" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="enable_gre_encapsulation" name="params.ipsec_tunnel_configs.0.enable_gre_encapsulation" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="7" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ike key exchange" name="params.ipsec_tunnel_configs.0.ike_key_exchange" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="8" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="prismaaccess_ike_crypto_profile_id" name="params.ipsec_tunnel_configs.0.prismaaccess_ike_crypto_profile_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="9" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="prismaaccess ipsec profile id" name="params.ipsec_tunnel_configs.0.prismaaccess_ipsec_profile_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="10" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="tunnel monitoring" name="params.ipsec_tunnel_configs.0.tunnel_monitoring" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="11" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="prismaaccess edge location" name="params.prismaaccess_edge_location" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="The prisma access edge location.&#xa;" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="12" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="prismaaccess qos cir mbps" name="params.prismaaccess_qos_cir_mbps" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="The prisma access QoS CIR MBPS." groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="13" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="prismaaccess qos profile id" name="params.prismaaccess_qos_profile_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="The prisma access QoS profile ID." groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="14" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ipsec tunnels authentification" name="params.remote_network_groups.ipsec_tunnels.authentication.0.branch_ike_identification" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="Branch IKE identification." groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="15" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;enabled_wan_interface_ids&quot;: [
+    &quot;string&quot;
+  ],
+  &quot;id&quot;: &quot;string&quot;,
+  &quot;ipsec_tunnel_configs&quot;: {
+    &quot;anti_replay&quot;: true,
+    &quot;copy_tos&quot;: true,
+    &quot;enable_gre_encapsulation&quot;: true,
+    &quot;ike_key_exchange&quot;: &quot;string&quot;,
+    &quot;prismaaccess_ike_crypto_profile_id&quot;: &quot;string&quot;,
+    &quot;prismaaccess_ipsec_profile_id&quot;: &quot;string&quot;,
+    &quot;tunnel_monitoring&quot;: true
+  },
+  &quot;is_active&quot;: true,
+  &quot;is_enabled&quot;: true,
+  &quot;prismaaccess_edge_location&quot;: [
+    &quot;string&quot;
+  ],
+  &quot;prismaaccess_qos_cir_mbps&quot;: 0,
+  &quot;prismaaccess_qos_profile_id&quot;: &quot;string&quot;,
+  &quot;remote_network_groups&quot;: [
+    {
+      &quot;ipsec_tunnels&quot;: [
+        {
+          &quot;authentication&quot;: {
+            &quot;branch_ike_identification&quot;: &quot;string&quot;,
+            &quot;prismaaccess_ike_identification&quot;: &quot;string&quot;,
+            &quot;psk&quot;: &quot;string&quot;
+          },
+          &quot;name&quot;: &quot;string&quot;,
+          &quot;routing&quot;: {
+            &quot;branch_as_number&quot;: &quot;string&quot;,
+            &quot;branch_ip_address&quot;: &quot;string&quot;,
+            &quot;prismaaccess_ip_address&quot;: &quot;string&quot;
+          },
+          &quot;routing_configs&quot;: {
+            &quot;advertise_default_route&quot;: true,
+            &quot;bgp_secret&quot;: &quot;string&quot;,
+            &quot;export_routes&quot;: true,
+            &quot;summarize_mobile_routes_before_advertise&quot;: true
+          },
+          &quot;wan_interface_id&quot;: &quot;string&quot;
+        }
+      ],
+      &quot;name&quot;: &quot;string&quot;,
+      &quot;spn_name&quot;: [
+        &quot;string&quot;
+      ]
+    }
+  ],
+  &quot;routing_configs&quot;: {
+    &quot;advertise_default_route&quot;: true,
+    &quot;bgp_secret&quot;: &quot;string&quot;,
+    &quot;export_routes&quot;: true,
+    &quot;summarize_mobile_routes_before_advertise&quot;: true
+  },
+  &quot;site_id&quot;: &quot;string&quot;
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <array name="enabled wan interface ids">
+            <lines/>
+            <xpath>$[&apos;enabled_wan_interface_ids&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
+          <xpath>$[&apos;object_id&apos;]</xpath>
+        </line>
+        <line>
+          <array name="IPSecTunnelConfigs">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;anti replay&gt;.*)$@</regexp>
+                <xpath>$[&apos;anti-replay&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;copy tos&gt;.*)$@</regexp>
+                <xpath>$[&apos;copy_tos&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;enable gre encapsulation&gt;.*)$@</regexp>
+                <xpath>$[&apos;enable_gre_encapsulation&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;ike key exchange&gt;.*)$@</regexp>
+                <xpath>$[&apos;ike_key_exchange&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;prismaaccess ike crypto profile id&gt;.*)$@</regexp>
+                <xpath>$[&apos;prismaaccess_ike_crypto_profile_id&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;prismaaccess ipsec profile id&gt;.*)$@</regexp>
+                <xpath>$[&apos;prismaaccess_ipsec_profile_id&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;tunnel monitoring&gt;.*)$@</regexp>
+                <xpath>$[&apos;tunnel_monitoring&apos;]</xpath>
+              </line>
+            </lines>
+            <xpath>$[&apos;ipsec_tunnel_configs&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;activate&gt;.*)$@</regexp>
+          <xpath>$[&apos;is_active&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;enabled&gt;.*)$@</regexp>
+          <xpath>$[&apos;is_enabled&apos;]</xpath>
+        </line>
+        <line>
+          <array name="prismaaccess_edge_location">
+            <lines/>
+            <xpath>$[&apos;prismaaccess_edge_location&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;prismaaccess qos cir mbps&gt;.*)$@</regexp>
+          <xpath>$[&apos;prismaaccess_qos_cir_mbps&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;prismaaccess qos profile id&gt;.*)$@</regexp>
+          <xpath>$[&apos;prismaaccess_qos_profile_id&apos;]</xpath>
+        </line>
+        <line>
+          <array name="remote_network_groups">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+                <xpath>$[&apos;name&apos;]</xpath>
+              </line>
+              <line>
+                <array name="ipsec_tunnels">
+                  <lines/>
+                  <xpath>$[&apos;ipsec_tunnels&apos;].*</xpath>
+                </array>
+                <regexp></regexp>
+                <xpath></xpath>
+              </line>
+              <line>
+                <array name="spn_name">
+                  <lines/>
+                  <xpath>$[&apos;spn name&apos;]</xpath>
+                </array>
+                <regexp></regexp>
+                <xpath></xpath>
+              </line>
+            </lines>
+            <xpath>$[&apos;remote_network_groups&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="routing_configs">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;advertise default route&gt;.*)$@</regexp>
+                <xpath>$[&apos;advertise_default_route&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;bgp secret&gt;.*)$@</regexp>
+                <xpath>$[&apos;bgp_secret&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;bgp secret&gt;.*)$@</regexp>
+                <xpath>$[&apos;bgp_secret&apos;]</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;summarize mobile routes before advertise:&gt;.*)$@</regexp>
+                <xpath>$[&apos;summarize_mobile_routes_before_advertise&apos;]</xpath>
+              </line>
+            </lines>
+            <xpath>$[&apos;routing_configs&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;site id&gt;.*)$@</regexp>
+          <xpath>$[&apos;site_id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;enabled wan interface ids&gt;.*)$@</regexp>
+          <xpath>$[&apos;enabled_wan_interface_ids&apos;]</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sdwan/v2.1/api/sites/{site_id}/prismasase_connections</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>PrismaSDWAN_Tunnel_deployment</displayName>
+  <order>0</order>
+</ObjectDefinition>
