@@ -18,7 +18,7 @@
     <name>Remote_Network</name>
     <group>SASE|sse|PaloAlto|Prisma Access</group>
     <importonce>false</importonce>
-    <importrank>0</importrank>
+    <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
     <sortascending>false</sortascending>
     <sortauto>false</sortauto>
@@ -29,37 +29,156 @@
     </directoryNames>
   </information>
   <variables frozen="0">
-    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="pop_name" name="params.pop_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="ecmp_load_balancing" name="params.ecmp_load_balancing" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="ipsec_tunnel" name="params.ipsec_tunnel" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="license_type" name="params.license_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="region" name="params.region" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="secondary_ipsec_tunnel" name="params.secondary_ipsec_tunnel" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="spn_name" name="params.spn_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="subnet" name="params.subnets.0.subnet" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="do_not_export_routes" name="params.ecmp_tunnels.0.do_not_export_routes" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="ipsec_tunnel" name="params.ecmp_tunnels.0.ipsec_tunnel" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="local_ip_address" name="params.ecmp_tunnels.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="name" name="params.ecmp_tunnels.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="originate_default_route" name="params.ecmp_tunnels.0.originate_default_route" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peer_as" name="params.ecmp_tunnels.0.peer_as" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peer_ip_address" name="params.ecmp_tunnels.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peering_type" name="params.ecmp_tunnels.0.peering_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="secret" name="params.ecmp_tunnels.0.secret" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="summarize_mobile_user_routes" name="params.ecmp_tunnels.0.summarize_mobile_user_routes" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="do_not_export_routes" name="params.protocol_bgp.0.do_not_export_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="enable" name="params.protocol_bgp.0.enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="local_ip_address" name="params.protocol_bgp.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="originate_default_route" name="params.protocol_bgp.0.originate_default_route" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peer_as" name="params.protocol_bgp.0.peer_as" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peer_ip_address" name="params.protocol_bgp.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peering_type" name="params.protocol_bgp.0.peering_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="secret" name="params.protocol_bgp.0.secret" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="summarize_mobile_user_routes" name="params.protocol_bgp.0.summarize_mobile_user_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="local_ip_address" name="params.protocol_bgp_peer.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="peer_ip_address" name="params.protocol_bgp_peer.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="secret" name="params.protocol_bgp_peer.0.secret" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" validationRegex="^[a-zA-Z][0-9a-zA-Z._-]{0,62}$" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ID" name="params.id" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Folder" name="params.folder" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="31" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Remote Networks" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="License Type" name="params.license_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Region" name="params.region" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>accessible_pops</class>
+      </classes>
+    </variable>
+    <variable displayName="SPN Name" name="params.spn_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="IPSec Tunnel" name="params.ipsec_tunnel" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>ipsec_tunnels</class>
+      </classes>
+    </variable>
+    <variable displayName="Secondary IPSec Tunnel" name="params.secondary_ipsec_tunnel" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>ipsec_tunnels</class>
+      </classes>
+    </variable>
+    <variable displayName="Subnet" name="params.subnets.0.subnet" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="120" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Subnets</sections>
+      </sections>
+    </variable>
+    <variable displayName="ECMP Load Balancing" name="params.ecmp_load_balancing" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="disable" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP</sections>
+      </sections>
+      <values>
+        <values displayValue="Disable">disable</values>
+        <values displayValue="Enable">enable</values>
+      </values>
+    </variable>
+    <variable displayName="do_not_export_routes" name="params.ecmp_tunnels.0.do_not_export_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="ipsec_tunnel" name="params.ecmp_tunnels.0.ipsec_tunnel" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="local_ip_address" name="params.ecmp_tunnels.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="name" name="params.ecmp_tunnels.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="originate_default_route" name="params.ecmp_tunnels.0.originate_default_route" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="peer_as" name="params.ecmp_tunnels.0.peer_as" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="peer_ip_address" name="params.ecmp_tunnels.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="peering_type" name="params.ecmp_tunnels.0.peering_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+      <values>
+        <values displayValue="Exchange IPv4 routes over IPv4 peering">exchange-v4-over-v4</values>
+        <values displayValue="Exchange both IPv4 and IPv6 routes over IPv4 peering">exchange-v4-v6-over-v4</values>
+        <values displayValue="Exchange IPv4 routes over IPv4 peer and IPv6 route over IPv6 peer">exchange-v4-over-v4-v6-over-v6</values>
+        <values displayValue="Exchange IPv6 routes over IPv6 peering">exchange-v6-over-v6</values>
+      </values>
+    </variable>
+    <variable displayName="secret" name="params.ecmp_tunnels.0.secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="summarize_mobile_user_routes" name="params.ecmp_tunnels.0.summarize_mobile_user_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ECMP Tunnels</sections>
+      </sections>
+    </variable>
+    <variable displayName="do_not_export_routes" name="params.protocol_bgp.0.do_not_export_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="enable" name="params.protocol_bgp.0.enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="local_ip_address" name="params.protocol_bgp.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="originate_default_route" name="params.protocol_bgp.0.originate_default_route" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="peer_as" name="params.protocol_bgp.0.peer_as" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="peer_ip_address" name="params.protocol_bgp.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="peering_type" name="params.protocol_bgp.0.peering_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="secret" name="params.protocol_bgp.0.secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="summarize_mobile_user_routes" name="params.protocol_bgp.0.summarize_mobile_user_routes" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP</sections>
+      </sections>
+    </variable>
+    <variable displayName="local_ip_address" name="params.protocol_bgp_peer.0.local_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP Peer</sections>
+      </sections>
+    </variable>
+    <variable displayName="peer_ip_address" name="params.protocol_bgp_peer.0.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP Peer</sections>
+      </sections>
+    </variable>
+    <variable displayName="secret" name="params.protocol_bgp_peer.0.secret" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol BGP Peer</sections>
+      </sections>
+    </variable>
   </variables>
   <example>
     <content>{
@@ -124,11 +243,11 @@
       </section>
       <lines>
         <line>
-          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
           <xpath>$[&apos;id&apos;]</xpath>
         </line>
         <line>
-          <regexp>@^(?&lt;pop_name&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
           <xpath>$[&apos;name&apos;]</xpath>
         </line>
         <line>
@@ -341,82 +460,173 @@
         </line>
       </lines>
     </parser>
-    <xpath>/config/deployment/v1/remote-networks?folder=Remote%20Networks</xpath>
+    <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks</xpath>
   </command>
   <command name="CREATE">
-    <operation><![CDATA[{literal}{ {/literal}
-"ecmp_load_balancing": "{$params.ecmp_load_balancing}",
+    <operation><![CDATA[{literal}{
+{/literal}
+  "name": "{$params.object_id}",
+  {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
+  {if $params.license_type}"license_type": "{$params.license_type}",{/if}
+  {if $params.ecmp_load_balancing}"ecmp_load_balancing": "{$params.ecmp_load_balancing}"{/if}
 
-"ecmp_tunnels": [
-  {foreach $params.ecmp_tunnels as $tunnel}
-  {literal}{ {/literal}
-    "do_not_export_routes": {$tunnel.do_not_export_routes|default:false},
-    "ipsec_tunnel": "{$tunnel.ipsec_tunnel}",
-    "local_ip_address": "{$tunnel.local_ip_address}",
-    "name": "{$tunnel.name}",
-    "originate_default_route": {$tunnel.originate_default_route|default:false},
-    "peer_as": "{$tunnel.peer_as}",
-    "peer_ip_address": "{$tunnel.peer_ip_address}",
-    "peering_type": "{$tunnel.peering_type}",
-    "secret": "{$tunnel.secret}",
-    "summarize_mobile_user_routes": {$tunnel.summarize_mobile_user_routes|default:false}
-  {literal}}{/literal}{if !$tunnel@last},{/if}
-  {/foreach}
-],
+  {if $params.ecmp_load_balancing == enable}
+  ,"ecmp_tunnels": [
+    {foreach $params.ecmp_tunnels as $tunnel}
+    {literal}{
+    {/literal}
+      {if $tunnel.do_not_export_routes !== null}"do_not_export_routes": {if $tunnel.do_not_export_routes}true{else}false{/if},{/if}
+      {if $tunnel.ipsec_tunnel}"ipsec_tunnel": "{$tunnel.ipsec_tunnel}",{/if}
+      {if $tunnel.local_ip_address}"local_ip_address": "{$tunnel.local_ip_address}",{/if}
+      {if $tunnel.name}"name": "{$tunnel.name}",{/if}
+      {if $tunnel.originate_default_route !== null}"originate_default_route": {if $tunnel.originate_default_route}true{else}false{/if},{/if}
+      {if $tunnel.peer_as}"peer_as": "{$tunnel.peer_as}",{/if}
+      {if $tunnel.peer_ip_address}"peer_ip_address": "{$tunnel.peer_ip_address}",{/if}
+      {if $tunnel.peering_type}"peering_type": "{$tunnel.peering_type}",{/if}
+      {if $tunnel.secret}"secret": "{$tunnel.secret}",{/if}
+      {if $tunnel.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $tunnel.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    {literal}}{/literal}{if !$tunnel@last},{/if}
+    {/foreach}
+  ]{/if}
 
-"id": "{$params.id}",
-"ipsec_tunnel": "{$params.ipsec_tunnel}",
-"license_type": "{$params.license_type}",
-"name": "{$params.name}",
+  {* Check if any protocol-related values are set *}
+  {assign var=has_bgp value=($params.protocol_bgp.0.enable || $params.protocol_bgp.0.local_ip_address || $params.protocol_bgp.0.peer_ip_address || $params.protocol_bgp.0.peer_as || $params.protocol_bgp.0.secret || $params.protocol_bgp.0.peering_type || $params.protocol_bgp.0.originate_default_route !== null || $params.protocol_bgp.0.summarize_mobile_user_routes !== null || $params.protocol_bgp.0.do_not_export_routes !== null)}
+  {assign var=has_bgp_peer value=($params.protocol_bgp_peer.0.local_ip_address || $params.protocol_bgp_peer.0.peer_ip_address || $params.protocol_bgp_peer.0.secret)}
+  {if $has_bgp || $has_bgp_peer}
+  ,"protocol": {
+    {if $has_bgp}
+    "bgp": {
+      "enable": {if $params.protocol_bgp.0.enable == true}true{else}false{/if},
+      {if $params.protocol_bgp.0.do_not_export_routes !== null}"do_not_export_routes": {if $params.protocol_bgp.0.do_not_export_routes}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp.0.originate_default_route !== null}"originate_default_route": {if $params.protocol_bgp.0.originate_default_route}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.peer_as}"peer_as": "{$params.protocol_bgp.0.peer_as}",{/if}
+      {if $params.protocol_bgp.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp.0.peering_type}"peering_type": "{$params.protocol_bgp.0.peering_type}",{/if}
+      {if $params.protocol_bgp.0.secret}"secret": "{$params.protocol_bgp.0.secret}",{/if}
+      {if $params.protocol_bgp.0.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $params.protocol_bgp.0.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    }{if $has_bgp_peer},{/if}
+    {/if}
 
-"protocol":
-{literal}{ {/literal}
-  "bgp":
-  {literal}{ {/literal}
-    "do_not_export_routes": {$params.protocol.bgp.do_not_export_routes|default:false},
-    "enable": {$params.protocol.bgp.enable|default:false},
-    "local_ip_address": "{$params.protocol.bgp.local_ip_address}",
-    "originate_default_route": {$params.protocol.bgp.originate_default_route|default:false},
-    "peer_as": "{$params.protocol.bgp.peer_as}",
-    "peer_ip_address": "{$params.protocol.bgp.peer_ip_address}",
-    "peering_type": "{$params.protocol.bgp.peering_type}",
-    "secret": "{$params.protocol.bgp.secret}",
-    "summarize_mobile_user_routes": {$params.protocol.bgp.summarize_mobile_user_routes|default:false}
-  {literal}}{/literal},
+    {if $has_bgp_peer}
+    "bgp_peer": {
+      {if $params.protocol_bgp_peer.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp_peer.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp_peer.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.secret}"secret": "{$params.protocol_bgp_peer.0.secret}"{/if}
+    }
+    {/if}
+  }
+  {/if}
 
-  "bgp_peer":
-  {literal}{ {/literal}
-    "local_ip_address": "{$params.protocol.bgp_peer.local_ip_address}",
-    "peer_ip_address": "{$params.protocol.bgp_peer.peer_ip_address}",
-    "secret": "{$params.protocol.bgp_peer.secret}"
-  {literal}}{/literal}
-{literal}}{/literal},
+  {* Fragmentation block only if explicitly true/false *}
+  {if $params.protocol_fragmentation !== null}
+  ,"fragmentation": {
+    "enable": {if $params.protocol_fragmentation}true{else}false{/if}
+  },
+  {/if}
 
-"region": "{$params.region}",
-"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}",
-"spn_name": "{$params.spn_name}",
+  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
+  {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
 
-"subnets": [
-  {foreach $params.subnets as $subnet}
-    "{$subnet}"{if !$subnet@last}, {/if}
-  {/foreach}
-]
-
+  {* Only include subnets if not empty *}
+  {if $params.subnets|@count > 0}
+  ,"subnets": [
+    {foreach $params.subnets as $subnet}
+      "{$subnet.subnet}"{if !$subnet@last},{/if}
+    {/foreach}
+  ]
+  {/if}
 {literal}}{/literal}
 ]]></operation>
     <rest>POST</rest>
-    <xpath>/config/deployment/v1/remote-networks</xpath>
+    <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks</xpath>
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <operation><![CDATA[]]></operation>
+    <operation><![CDATA[{literal}{
+{/literal}
+  "name": "{$params.object_id}",
+  {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
+  {if $params.license_type}"license_type": "{$params.license_type}",{/if}
+  {if $params.ecmp_load_balancing}"ecmp_load_balancing": "{$params.ecmp_load_balancing}"{/if}
+
+  {if $params.ecmp_load_balancing == enable}
+  ,"ecmp_tunnels": [
+    {foreach $params.ecmp_tunnels as $tunnel}
+    {literal}{
+    {/literal}
+      {if $tunnel.do_not_export_routes !== null}"do_not_export_routes": {if $tunnel.do_not_export_routes}true{else}false{/if},{/if}
+      {if $tunnel.ipsec_tunnel}"ipsec_tunnel": "{$tunnel.ipsec_tunnel}",{/if}
+      {if $tunnel.local_ip_address}"local_ip_address": "{$tunnel.local_ip_address}",{/if}
+      {if $tunnel.name}"name": "{$tunnel.name}",{/if}
+      {if $tunnel.originate_default_route !== null}"originate_default_route": {if $tunnel.originate_default_route}true{else}false{/if},{/if}
+      {if $tunnel.peer_as}"peer_as": "{$tunnel.peer_as}",{/if}
+      {if $tunnel.peer_ip_address}"peer_ip_address": "{$tunnel.peer_ip_address}",{/if}
+      {if $tunnel.peering_type}"peering_type": "{$tunnel.peering_type}",{/if}
+      {if $tunnel.secret}"secret": "{$tunnel.secret}",{/if}
+      {if $tunnel.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $tunnel.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    {literal}}{/literal}{if !$tunnel@last},{/if}
+    {/foreach}
+  ]{/if}
+
+  {* Check if any protocol-related values are set *}
+  {assign var=has_bgp value=($params.protocol_bgp.0.enable || $params.protocol_bgp.0.local_ip_address || $params.protocol_bgp.0.peer_ip_address || $params.protocol_bgp.0.peer_as || $params.protocol_bgp.0.secret || $params.protocol_bgp.0.peering_type || $params.protocol_bgp.0.originate_default_route !== null || $params.protocol_bgp.0.summarize_mobile_user_routes !== null || $params.protocol_bgp.0.do_not_export_routes !== null)}
+  {assign var=has_bgp_peer value=($params.protocol_bgp_peer.0.local_ip_address || $params.protocol_bgp_peer.0.peer_ip_address || $params.protocol_bgp_peer.0.secret)}
+  {if $has_bgp || $has_bgp_peer}
+  ,"protocol": {
+    {if $has_bgp}
+    "bgp": {
+      "enable": {if $params.protocol_bgp.0.enable == true}true{else}false{/if},
+      {if $params.protocol_bgp.0.do_not_export_routes !== null}"do_not_export_routes": {if $params.protocol_bgp.0.do_not_export_routes}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp.0.originate_default_route !== null}"originate_default_route": {if $params.protocol_bgp.0.originate_default_route}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.peer_as}"peer_as": "{$params.protocol_bgp.0.peer_as}",{/if}
+      {if $params.protocol_bgp.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp.0.peering_type}"peering_type": "{$params.protocol_bgp.0.peering_type}",{/if}
+      {if $params.protocol_bgp.0.secret}"secret": "{$params.protocol_bgp.0.secret}",{/if}
+      {if $params.protocol_bgp.0.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $params.protocol_bgp.0.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    }{if $has_bgp_peer},{/if}
+    {/if}
+
+    {if $has_bgp_peer}
+    "bgp_peer": {
+      {if $params.protocol_bgp_peer.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp_peer.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp_peer.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.secret}"secret": "{$params.protocol_bgp_peer.0.secret}"{/if}
+    }
+    {/if}
+  }
+  {/if}
+
+  {* Fragmentation block only if explicitly true/false *}
+  {if $params.protocol_fragmentation !== null}
+  ,"fragmentation": {
+    "enable": {if $params.protocol_fragmentation}true{else}false{/if}
+  },
+  {/if}
+
+  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
+  {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
+
+  {* Only include subnets if not empty *}
+  {if $params.subnets|@count > 0}
+  ,"subnets": [
+    {foreach $params.subnets as $subnet}
+      "{$subnet.subnet}"{if !$subnet@last},{/if}
+    {/foreach}
+  ]
+  {/if}
+{literal}}{/literal}
+]]></operation>
     <rest>PUT</rest>
-    <xpath>/config/deployment/v1/remote-networks/{$params.object_id}</xpath>
+    <xpath>/sse/config/v1/remote-networks/{$params.id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>
-    <xpath>/config/deployment/v1/remote-networks/{$params.object_id}</xpath>
+    <xpath>/sse/config/v1/remote-networks/{$params.id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>Remote_Network</displayName>

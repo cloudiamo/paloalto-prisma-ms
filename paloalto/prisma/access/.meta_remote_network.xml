@@ -10,16 +10,16 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>TAG</key>
-            <value>string</value>
-        </entry>
-        <entry>
             <key>COMMENT</key>
             <value>string</value>
         </entry>
         <entry>
+            <key>TAG</key>
+            <value>string</value>
+        </entry>
+        <entry>
             <key>MODEL</key>
-            <value>191119</value>
+            <value>28042025</value>
         </entry>
         <entry>
             <key>FILE_TYPE</key>
@@ -27,11 +27,11 @@
         </entry>
         <entry>
             <key>MANUFACTURER</key>
-            <value>191119</value>
+            <value>28</value>
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>Prisma_ACCESS_Tunnel_Deplyoment.xml</value>
+            <value>remote_network.xml</value>
         </entry>
     </map>
 </metadata>

@@ -29,21 +29,70 @@
     </directoryNames>
   </information>
   <variables frozen="0">
-    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="copy_tos" name="params.copy_tos" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="enable_gre_encapsulation" name="params.enable_gre_encapsulation" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="anti_replay" name="params.anti_replay" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="ipsec_crypto_profile" name="params.ipsec_crypto_profile" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="ike_gateway_name" name="params.ike_gateways.0.ike_gateway_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="name" name="params.proxy_ids.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="local" name="params.proxy_ids.0.local" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="remote" name="params.proxy_ids.0.remote" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="procotol_number" name="params.proxy_ids.0.procotol_number" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="name" name="params.proxy_id_v6.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="local" name="params.proxy_id_v6.0.local" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="remote" name="params.proxy_id_v6.0.remote" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="procotol_number" name="params.proxy_id_v6.0.procotol_number" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="id" name="params.id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="350" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="folder" name="params.folder" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="15" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Remote Networks" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Copy TOS" name="params.copy_tos" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>OPTIONS</sections>
+      </sections>
+    </variable>
+    <variable displayName="GRE Encapsulation" name="params.enable_gre_encapsulation" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>OPTIONS</sections>
+      </sections>
+    </variable>
+    <variable displayName="Anti Replay" name="params.anti_replay" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>OPTIONS</sections>
+      </sections>
+    </variable>
+    <variable displayName="IPSec Crypto Profile" name="params.ipsec_crypto_profile" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="IKE Gateway" name="params.ike_gateway_name" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>ike_gateway</class>
+      </classes>
+    </variable>
+    <variable displayName="Name" name="params.proxy_ids.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY</sections>
+      </sections>
+    </variable>
+    <variable displayName="Local" name="params.proxy_ids.0.local" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY</sections>
+      </sections>
+    </variable>
+    <variable displayName="Remote" name="params.proxy_ids.0.remote" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY</sections>
+      </sections>
+    </variable>
+    <variable displayName="Procotol Nb" name="params.proxy_ids.0.procotol_number" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY</sections>
+      </sections>
+    </variable>
+    <variable displayName="Name" name="params.proxy_id_v6.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY V6</sections>
+      </sections>
+    </variable>
+    <variable displayName="Local" name="params.proxy_id_v6.0.local" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY V6</sections>
+      </sections>
+    </variable>
+    <variable displayName="Remote" name="params.proxy_id_v6.0.remote" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY V6</sections>
+      </sections>
+    </variable>
+    <variable displayName="Procotol Nb" name="params.proxy_id_v6.0.procotol_number" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PROXY V6</sections>
+      </sections>
+    </variable>
   </variables>
   <example>
     <content>{
@@ -58,9 +107,6 @@
         &quot;ike_gateway&quot;: [
           {
             &quot;name&quot;: &quot;myIKE_GW1&quot;
-          },
-          {
-            &quot;name&quot;: &quot;myIKE_GW2&quot;
           }
         ],
         &quot;ipsec_crypto_profile&quot;: &quot;string&quot;,
@@ -106,11 +152,11 @@
       </section>
       <lines>
         <line>
-          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
           <xpath>$[&apos;id&apos;]</xpath>
         </line>
         <line>
-          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
           <xpath>$[&apos;name&apos;]</xpath>
         </line>
         <line>
@@ -130,15 +176,6 @@
           <xpath>$[&apos;auto_key&apos;].[&apos;ipsec_crypto_profile&apos;]</xpath>
         </line>
         <line>
-          <array name="ike_gateways">
-            <lines>
-              <line>
-                <regexp>@^(?&lt;ike_gateway_name&gt;.*)$@</regexp>
-                <xpath>$[&apos;name&apos;]</xpath>
-              </line>
-            </lines>
-            <xpath>$[&apos;auto_key&apos;].[&apos;ike_gateway&apos;].*</xpath>
-          </array>
           <regexp></regexp>
           <xpath></xpath>
         </line>
@@ -192,22 +229,44 @@
           <regexp></regexp>
           <xpath></xpath>
         </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ike_gateway_name&gt;.*)$@</regexp>
+          <xpath>$[&apos;auto_key&apos;].[&apos;ike_gateway&apos;].0.[&apos;name&apos;]</xpath>
+        </line>
       </lines>
     </parser>
-    <xpath>/config/network/v1/ipsec-tunnels?folder=Service%20Connections</xpath>
+    <xpath>/config/network/v1/ipsec-tunnels?folder=Remote%20Networks</xpath>
   </command>
   <command name="CREATE">
-    <operation><![CDATA[{literal}{ {/literal}
-  "anti_replay": {$params.anti_replay|default:true},
+    <operation><![CDATA[{literal}{
+{/literal}
+  {assign var=has_prev value=false}
+
+  {if isset($params.anti_replay)}
+  {if $has_prev},{/if}
+  "anti_replay": {if $params.anti_replay == true}true{else}false{/if}
+  {assign var=has_prev value=true}
+  {/if}
+
+  {if $params.ike_gateways || $params.ipsec_crypto_profile || $params.proxy_ids || $params.proxy_id_v6}
+  {if $has_prev},{/if}
   "auto_key": {
-    "ike_gateway": [
-      {foreach $params.ike_gateways as $gateway}
-      {
-        "name": "{$gateway.ike_gateway_name}"
-      }{if !$gateway@last},{/if}
-      {/foreach}
-    ],
-    "ipsec_crypto_profile": "{$params.ipsec_crypto_profile}",
+    {assign var=has_prev_auto_key value=false}
+
+    {if $params.ike_gateway_name}
+        "ike_gateway": [{literal}{ {/literal}"name": "{$params.ike_gateway_name}"{literal}} {/literal}]
+    {/if}
+
+    {if $params.ipsec_crypto_profile}
+       ,"ipsec_crypto_profile": "{$params.ipsec_crypto_profile}"
+    {/if}
+
+    {if $params.proxy_ids}
+    {if $has_prev_auto_key},{/if}
     "proxy_id": [
       {foreach $params.proxy_ids as $proxy}
       {
@@ -219,45 +278,90 @@
         "remote": "{$proxy.remote}"
       }{if !$proxy@last},{/if}
       {/foreach}
-    ],
+    ]
+    {assign var=has_prev_auto_key value=true}
+    {/if}
+
+    {if $params.proxy_id_v6}
+    {if $has_prev_auto_key},{/if}
     "proxy_id_v6": [
       {foreach $params.proxy_id_v6 as $proxyv6}
       {
         "local": "{$proxyv6.local}",
         "name": "{$proxyv6.name}",
         "protocol": {
-          "number": {$proxyv6.procotol_number|default:0}
+          "number": {if $proxyv6.procotol_number == true}true{else}false{/if}
         },
         "remote": "{$proxyv6.remote}"
       }{if !$proxyv6@last},{/if}
       {/foreach}
     ]
+    {/if}
   },
-  "copy_tos": {$params.copy_tos|default:false},
-  "enable_gre_encapsulation": {$params.enable_gre_encapsulation|default:false},
-  "name": "{$params.name}",
+  {assign var=has_prev value=true}
+  {/if}
+
+  
+  "copy_tos": {if $params.copy_tos == true}true{else}false{/if},
+  "enable_gre_encapsulation": {if $params.enable_gre_encapsulation == true}true{else}false{/if},
+  "name": "{$params.name}"
+
+  {if $params.tunnel_monitor_destination_ip || isset($params.tunnel_monitor_enable) || $params.tunnel_monitor_proxy_id}
+  {if $has_prev},{/if}
   "tunnel_monitor": {
-    "destination_ip": "{$params.tunnel_monitor_destination_ip}",
-    "enable": {$params.tunnel_monitor_enable|default:true},
+    {assign var=has_prev_tm value=false}
+
+    {if $params.tunnel_monitor_destination_ip}
+    {if $has_prev_tm},{/if}
+    "destination_ip": "{$params.tunnel_monitor_destination_ip}"
+    {assign var=has_prev_tm value=true}
+    {/if}
+
+    {if isset($params.tunnel_monitor_enable)}
+    {if $has_prev_tm},{/if}
+    "enable": {if $params.tunnel_monitor_enable == true}true{else}false{/if}
+    {assign var=has_prev_tm value=true}
+    {/if}
+
+    {if $params.tunnel_monitor_proxy_id}
+    {if $has_prev_tm},{/if}
     "proxy_id": "{$params.tunnel_monitor_proxy_id}"
+    {/if}
   }
-{literal}}{/literal}]]></operation>
+  {/if}
+
+{literal}}{/literal}
+]]></operation>
     <rest>POST</rest>
-    <xpath>/config/network/v1/ipsec-tunnels</xpath>
+    <xpath>/config/network/v1/ipsec-tunnels?folder={$params.folder|escape:&apos;url&apos;}</xpath>
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <operation><![CDATA[{literal}{ {/literal}
-  "anti_replay": {$params.anti_replay|default:true},
+    <operation><![CDATA[{literal}{
+{/literal}
+  {assign var=has_prev value=false}
+
+  {if isset($params.anti_replay)}
+  {if $has_prev},{/if}
+  "anti_replay": {if $params.anti_replay == true}true{else}false{/if}
+  {assign var=has_prev value=true}
+  {/if}
+
+  {if $params.ike_gateways || $params.ipsec_crypto_profile || $params.proxy_ids || $params.proxy_id_v6}
+  {if $has_prev},{/if}
   "auto_key": {
-    "ike_gateway": [
-      {foreach $params.ike_gateways as $gateway}
-      {
-        "name": "{$gateway.ike_gateway_name}"
-      }{if !$gateway@last},{/if}
-      {/foreach}
-    ],
-    "ipsec_crypto_profile": "{$params.ipsec_crypto_profile}",
+    {assign var=has_prev_auto_key value=false}
+
+    {if $params.ike_gateway_name}
+        "ike_gateway": [{literal}{ {/literal}"name": "{$params.ike_gateway_name}"{literal}} {/literal}]
+    {/if}
+
+    {if $params.ipsec_crypto_profile}
+       ,"ipsec_crypto_profile": "{$params.ipsec_crypto_profile}"
+    {/if}
+
+    {if $params.proxy_ids}
+    {if $has_prev_auto_key},{/if}
     "proxy_id": [
       {foreach $params.proxy_ids as $proxy}
       {
@@ -269,36 +373,67 @@
         "remote": "{$proxy.remote}"
       }{if !$proxy@last},{/if}
       {/foreach}
-    ],
+    ]
+    {assign var=has_prev_auto_key value=true}
+    {/if}
+
+    {if $params.proxy_id_v6}
+    {if $has_prev_auto_key},{/if}
     "proxy_id_v6": [
       {foreach $params.proxy_id_v6 as $proxyv6}
       {
         "local": "{$proxyv6.local}",
         "name": "{$proxyv6.name}",
         "protocol": {
-          "number": {$proxyv6.procotol_number|default:0}
+          "number": {if $proxyv6.procotol_number == true}true{else}false{/if}
         },
         "remote": "{$proxyv6.remote}"
       }{if !$proxyv6@last},{/if}
       {/foreach}
     ]
+    {/if}
   },
-  "copy_tos": {$params.copy_tos|default:false},
-  "enable_gre_encapsulation": {$params.enable_gre_encapsulation|default:false},
-  "name": "{$params.name}",
+  {assign var=has_prev value=true}
+  {/if}
+
+  
+  "copy_tos": {if $params.copy_tos == true}true{else}false{/if},
+  "enable_gre_encapsulation": {if $params.enable_gre_encapsulation == true}true{else}false{/if},
+  "name": "{$params.object_id}"
+
+  {if $params.tunnel_monitor_destination_ip || isset($params.tunnel_monitor_enable) || $params.tunnel_monitor_proxy_id}
+  {if $has_prev},{/if}
   "tunnel_monitor": {
-    "destination_ip": "{$params.tunnel_monitor_destination_ip}",
-    "enable": {$params.tunnel_monitor_enable|default:true},
+    {assign var=has_prev_tm value=false}
+
+    {if $params.tunnel_monitor_destination_ip}
+    {if $has_prev_tm},{/if}
+    "destination_ip": "{$params.tunnel_monitor_destination_ip}"
+    {assign var=has_prev_tm value=true}
+    {/if}
+
+    {if isset($params.tunnel_monitor_enable)}
+    {if $has_prev_tm},{/if}
+    "enable": {if $params.tunnel_monitor_enable == true}true{else}false{/if}
+    {assign var=has_prev_tm value=true}
+    {/if}
+
+    {if $params.tunnel_monitor_proxy_id}
+    {if $has_prev_tm},{/if}
     "proxy_id": "{$params.tunnel_monitor_proxy_id}"
+    {/if}
   }
-{literal}}{/literal}]]></operation>
+  {/if}
+
+{literal}}{/literal}
+]]></operation>
     <rest>PUT</rest>
-    <xpath>/config/network/v1/ipsec-tunnels/{$params.object_id}</xpath>
+    <xpath>/config/network/v1/ipsec-tunnels/{$params.id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>
-    <xpath>/config/network/v1/ipsec-tunnels/{$params.object_id}</xpath>
+    <xpath>/config/network/v1/ipsec-tunnels/{$params.id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>IPsec_tunnel</displayName>
