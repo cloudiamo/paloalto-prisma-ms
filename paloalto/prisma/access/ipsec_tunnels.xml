@@ -304,7 +304,7 @@
   
   "copy_tos": {if $params.copy_tos == true}true{else}false{/if},
   "enable_gre_encapsulation": {if $params.enable_gre_encapsulation == true}true{else}false{/if},
-  "name": "{$params.name}"
+  "name": "{$params.object_id}"
 
   {if $params.tunnel_monitor_destination_ip || isset($params.tunnel_monitor_enable) || $params.tunnel_monitor_proxy_id}
   {if $has_prev},{/if}

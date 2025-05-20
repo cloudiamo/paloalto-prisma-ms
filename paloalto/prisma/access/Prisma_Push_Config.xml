@@ -29,63 +29,47 @@
     </directoryNames>
   </information>
   <variables frozen="0">
-    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Folder" name="params.folder.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="1" increment="0" refServiceURI="" keepOnImport="false" editable="true" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" validationRegex="^[a-zA-Z\d-_\. ]{0,64}$" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Folder" name="params.directory" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="2" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
       <values>
         <values displayValue="Remote Networks">Remote Networks</values>
         <values displayValue="Service Connections">Service Connections</values>
-        <values displayValue="Mobile Users Container">Mobile Users Container</values>
-        <values displayValue="Mobile Users Explicit Proxy">Mobile Users Explicit Proxy</values>
-        <values displayValue="Mobile Users">Mobile Users</values>
-        <values displayValue="Shared">Shared</values>
       </values>
     </variable>
-    <variable displayName="Admin" name="params.admin.0.value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="Push only the changes for these administrators and/or service accounts" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="2" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="all" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="A description of the changes being pushed" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="3" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Admin" name="params.admin" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="3" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="1" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
   </variables>
   <example/>
   <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>
+        <xpath>$.entry</xpath>
       </section>
       <lines/>
     </parser>
+    <xpath>/config/deployment/v1/bandwidth-allocations?folder=Remote%20Networks#</xpath>
   </command>
   <command name="CREATE">
     <operation><![CDATA[{literal}{ {/literal}
-  "admin": [
-    {foreach from=$params.admin item=admin name=admins}
-      "{$admin}"{if not $smarty.foreach.admins.last},{/if}
-    {/foreach}
-  ],
-  "description": "{$params.description|escape:'json'}",
-  "folder": [
-    {foreach from=$params.folder item=folder name=folders}
-      "{$folder}"{if not $smarty.foreach.folders.last},{/if}
-    {/foreach}
-  ]
-{literal}{ {/literal}]]></operation>
+  {if $params.directory}"folders": ["{$params.directory}"]{/if}
+  {if $params.admin}, "admin": ["{$params.admin}"]{/if}
+  {if $params.description}, "description": "{$params.description|escape:'json'}"{/if}
+{literal}} {/literal}]]></operation>
     <rest>POST</rest>
     <xpath>/config/operations/v1/config-versions/candidate:push</xpath>
   </command>
   <command name="READ"/>
   <command name="UPDATE">
     <operation><![CDATA[{literal}{ {/literal}
-  "admin": [
-    {foreach from=$params.admin item=admin name=admins}
-      "{$admin}"{if not $smarty.foreach.admins.last},{/if}
-    {/foreach}
-  ],
-  "description": "{$params.description|escape:'json'}",
-  "folder": [
-    {foreach from=$params.folder item=folder name=folders}
-      "{$folder}"{if not $smarty.foreach.folders.last},{/if}
-    {/foreach}
-  ]
-{literal}{ {/literal}]]></operation>
-    <rest>POST</rest>
-    <xpath>/config/operations/v1/config-versions/candidate:push</xpath>
+  {if $params.directory}"folders": ["{$params.directory}"]{/if}
+  {if $params.admin}, "admin": ["{$params.admin}"]{/if}
+  {if $params.description}, "description": "{$params.description|escape:'json'}"{/if}
+{literal}} {/literal}
+]]></operation>
+    <rest></rest>
+    <xpath></xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
