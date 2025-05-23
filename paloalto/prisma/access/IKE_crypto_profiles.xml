@@ -1,0 +1,477 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>IKE crypto profiles</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.id" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="Index" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="folder" name="params.folder" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Remote Networks" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="snippet" name="params.snippet" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="hash" name="params.hashs.0.hash" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="sha512" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="md5">md5</values>
+        <values displayValue="sha1">sha1</values>
+        <values displayValue="sha256">sha256</values>
+        <values displayValue="sha384">sha384</values>
+        <values displayValue="sha512">sha512</values>
+      </values>
+    </variable>
+    <variable displayName="dh group" name="params.dh_groups.0.dh_group" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="group2" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="group1">group1</values>
+        <values displayValue="group2">group2</values>
+        <values displayValue="group5">group5</values>
+        <values displayValue="group14">group14</values>
+        <values displayValue="group19">group19</values>
+        <values displayValue="group20">group20</values>
+      </values>
+    </variable>
+    <variable displayName="encryption" name="params.encryptions.0.encryption" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="aes-128-cbc" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="des">des</values>
+        <values displayValue="3des">3des</values>
+        <values displayValue="aes-128-cbc">aes-128-cbc</values>
+        <values displayValue="aes-192-cbc">aes-192-cbc</values>
+        <values displayValue="aes-256-cbc">aes-256-cbc</values>
+        <values displayValue="aes-128-gcm">aes-128-gcm</values>
+        <values displayValue="aes-256-gcm">aes-256-gcm</values>
+      </values>
+    </variable>
+    <variable displayName="lifetime (hours)" name="params.lifetimes.0.lifetime" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: &quot;06fa1001-7104-4b7d-9cc5-ee6c81b1b70c&quot;,
+      &quot;name&quot;: &quot;PaloAlto-Networks-IKE-Crypto&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha256&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group2&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-128-cbc&quot;,
+        &quot;3des&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;9a144927-64b5-4b8b-bbd6-9059d0f22e3f&quot;,
+      &quot;name&quot;: &quot;CloudGenix-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group5&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;3e1aa364-5bec-4f98-85dd-acd1da51d8a8&quot;,
+      &quot;name&quot;: &quot;Citrix-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha256&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group20&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;c5b098e8-e54c-4ed4-9b0c-a5674fecd4e6&quot;,
+      &quot;name&quot;: &quot;Riverbed-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group2&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;a184363b-1c51-423f-97c0-256f87e4ddb6&quot;,
+      &quot;name&quot;: &quot;SilverPeak-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group14&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;e36d4d78-eb9e-4ed0-b547-f02916f16138&quot;,
+      &quot;name&quot;: &quot;CiscoISR-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;,
+        &quot;sha384&quot;,
+        &quot;sha256&quot;,
+        &quot;sha1&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group5&quot;,
+        &quot;group2&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;,
+        &quot;aes-192-cbc&quot;,
+        &quot;aes-128-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;72949f75-b66b-460c-8bea-7d0dcb1a0023&quot;,
+      &quot;name&quot;: &quot;CiscoASA-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;,
+        &quot;sha384&quot;,
+        &quot;sha256&quot;,
+        &quot;sha1&quot;,
+        &quot;md5&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group5&quot;,
+        &quot;group2&quot;,
+        &quot;group1&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;,
+        &quot;3des&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;e0f47203-9052-47a0-8410-d53ec22392a1&quot;,
+      &quot;name&quot;: &quot;Viptela-IKE-default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha1&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group2&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-128-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;d8ae8f74-f8eb-46bf-9910-5bf62ccf56d2&quot;,
+      &quot;name&quot;: &quot;Suite-B-GCM-128&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha256&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group19&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-128-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;dbd6cd37-84cd-4544-9e4f-7cef353fdbad&quot;,
+      &quot;name&quot;: &quot;Suite-B-GCM-256&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha384&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group20&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;f8650aaf-74a6-476c-b6c0-576027eb5cd8&quot;,
+      &quot;name&quot;: &quot;Velocloud-IKE-default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha1&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group5&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-128-cbc&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;885ab8b5-7ef7-41fd-930a-601623f5ba29&quot;,
+      &quot;name&quot;: &quot;Others-IKE-Crypto-Default&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;snippet&quot;: &quot;default&quot;,
+      &quot;hash&quot;: [
+        &quot;sha512&quot;,
+        &quot;sha384&quot;,
+        &quot;sha256&quot;,
+        &quot;sha1&quot;,
+        &quot;md5&quot;
+      ],
+      &quot;dh_group&quot;: [
+        &quot;group20&quot;,
+        &quot;group19&quot;,
+        &quot;group14&quot;,
+        &quot;group5&quot;,
+        &quot;group2&quot;,
+        &quot;group1&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;,
+        &quot;aes-192-cbc&quot;,
+        &quot;aes-128-cbc&quot;,
+        &quot;3des&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    },
+    {
+      &quot;id&quot;: &quot;de1a70a0-9081-41bf-98b6-89c6dba975b6&quot;,
+      &quot;name&quot;: &quot;Auto_Prisma_SDWAN_IKECrypto&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;dh_group&quot;: [
+        &quot;group20&quot;
+      ],
+      &quot;encryption&quot;: [
+        &quot;aes-256-cbc&quot;
+      ],
+      &quot;hash&quot;: [
+        &quot;sha512&quot;
+      ],
+      &quot;lifetime&quot;: {
+        &quot;hours&quot;: 8
+      }
+    }
+  ],
+  &quot;offset&quot;: 0,
+  &quot;total&quot;: 13,
+  &quot;limit&quot;: 200
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$[&apos;data&apos;].*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;folder&gt;.*)$@</regexp>
+          <xpath>$.folder</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;snippet&gt;.*)$@</regexp>
+          <xpath>$.snippet</xpath>
+        </line>
+        <line>
+          <array name="hashs">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;hash&gt;.*)$@</regexp>
+                <xpath>$.*</xpath>
+              </line>
+            </lines>
+            <xpath>$.hash</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="dh_groups">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;dh_group&gt;.*)$@</regexp>
+                <xpath>$.*</xpath>
+              </line>
+            </lines>
+            <xpath>$.dh_group</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="encryptions">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;encryption&gt;.*)$@</regexp>
+                <xpath>$.*</xpath>
+              </line>
+            </lines>
+            <xpath>$.encryption</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="lifetimes">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;lifetime&gt;.*)$@</regexp>
+                <xpath>$.*</xpath>
+              </line>
+            </lines>
+            <xpath>$.lifetime</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sse/config/v1/ike-crypto-profiles?folder=Remote%20Networks</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "authentication_multiple": 0,
+  "dh_group": [
+    {foreach $params.dh_groups as $dh_groups}
+      "{$dh_groups.dh_group}"{if not $dh_groups@last},{/if}
+    {/foreach}
+  ],
+  "encryption": [
+    {foreach $params.encryptions as $encryptions}
+      "{$encryptions.encryption}"{if not $encryptions@last},{/if}
+    {/foreach}
+  ],
+  "hash": [
+    {foreach $params.hashs as $hashs}
+      "{$hashs.hash}"{if not $hashs@last},{/if}
+    {/foreach}
+  ],
+  "lifetime": {literal}{{/literal}
+    "hours": {$params.lifetimes[0].lifetime}
+  {literal}}{/literal},
+  "name": "{$params.object_id}"
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/sse/config/v1/ike-crypto-profiles?folder=Remote%20Networks</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "authentication_multiple": 0,
+  "dh_group": [
+    {foreach $params.dh_groups as $dh_groups}
+      "{$dh_groups.dh_group}"{if not $dh_groups@last},{/if}
+    {/foreach}
+  ],
+  "encryption": [
+    {foreach $params.encryptions as $encryptions}
+      "{$encryptions.encryption}"{if not $encryptions@last},{/if}
+    {/foreach}
+  ],
+  "hash": [
+    {foreach $params.hashs as $hashs}
+      "{$hashs.hash}"{if not $hashs@last},{/if}
+    {/foreach}
+  ],
+  "lifetime": {literal}{{/literal}
+    "hours": {$params.lifetimes[0].lifetime}
+  {literal}}{/literal},
+  "name": "{$params.object_id}"
+{literal}}{/literal}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sse/config/v1/ike-crypto-profiles/{$params.id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sse/config/v1/ike-crypto-profiles/{$params.id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>IKE crypto profiles</displayName>
+  <order>0</order>
+</ObjectDefinition>
