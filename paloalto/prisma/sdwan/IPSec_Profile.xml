@@ -1,0 +1,557 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>name</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>IPSec Profile</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="true" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Mode" name="params.esp_mode" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="tunnel" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ESP Group</sections>
+      </sections>
+    </variable>
+    <variable displayName="DH Group" name="params.esp_group.0.dh_groups" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="modp2048" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ESP Group</sections>
+      </sections>
+      <values>
+        <values displayValue="MODP-1536 (Group 5)">modp1536</values>
+        <values displayValue="MODP-2048 (Group 14)">modp2048</values>
+        <values displayValue="ECP-384 (Group 20)">ecp384</values>
+        <values displayValue="ECP-256 (Group 19)">ecp256</values>
+      </values>
+    </variable>
+    <variable displayName="Encryption" name="params.esp_group.0.encryption" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="aes192" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ESP Group</sections>
+      </sections>
+      <values>
+        <values displayValue="AES-256-CBC">aes256</values>
+        <values displayValue="AES-192-CBC">aes192</values>
+        <values displayValue="AES-256-GCM">aes256gcm128</values>
+        <values displayValue="AES-128-CBC">aes128</values>
+      </values>
+    </variable>
+    <variable displayName="Hash" name="params.esp_group.0.hash" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="sha256" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>ESP Group</sections>
+      </sections>
+      <values>
+        <values displayValue="SHA-256">sha256</values>
+        <values displayValue="SHA-1">sha1</values>
+        <values displayValue="MD5">md5</values>
+        <values displayValue="SHA-384">sha384</values>
+        <values displayValue="SHA-512">sha512</values>
+        <values displayValue="NONE">none</values>
+      </values>
+    </variable>
+    <variable displayName="DH Groups" name="params.ike_group.0.dh_groups" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="modp2048" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKE Group</sections>
+      </sections>
+      <values>
+        <values displayValue="MODP-1536 (Group 5)">modp1536</values>
+        <values displayValue="MODP-2048 (Group 14)">modp2048</values>
+        <values displayValue="ECP-384 (Group 20)">ecp384</values>
+        <values displayValue="ECP-256 (Group 19)">ecp256</values>
+      </values>
+    </variable>
+    <variable displayName="Encryption" name="params.ike_group.0.encryption" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="aes192" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKE Group</sections>
+      </sections>
+      <values>
+        <values displayValue="AES-256-CBC">aes256</values>
+        <values displayValue="AES-192-CBC">aes192</values>
+        <values displayValue="AES-256-GCM">aes256gcm128</values>
+        <values displayValue="AES-128-CBC">aes128</values>
+      </values>
+    </variable>
+    <variable displayName="Hash" name="params.ike_group.0.hash" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="sha256" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKE Group</sections>
+      </sections>
+      <values>
+        <values displayValue="SHA-256">sha256</values>
+        <values displayValue="SHA-1">sha1</values>
+        <values displayValue="SHA-384">sha384</values>
+        <values displayValue="MD5">md5</values>
+        <values displayValue="SHA-512">sha512</values>
+        <values displayValue="NONE">none</values>
+      </values>
+    </variable>
+    <variable displayName="Key Exchange" name="params.key_exchange" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="ikev2" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKE Group</sections>
+      </sections>
+      <values>
+        <values displayValue="IKEv2">ikev2</values>
+        <values displayValue="IKEv1">ikev1</values>
+      </values>
+    </variable>
+    <variable displayName="Authentication Type" name="params.authentication_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="none" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="None">none</values>
+      </values>
+    </variable>
+    <variable displayName="DPD" name="params.dpd" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="DPD Enable" name="params.dpd_enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="13" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;_etag&quot;: 0,
+  &quot;_content_length&quot;: &quot;3542&quot;,
+  &quot;_schema&quot;: 0,
+  &quot;_created_on_utc&quot;: 17472949667640040,
+  &quot;_updated_on_utc&quot;: 0,
+  &quot;_status_code&quot;: &quot;200&quot;,
+  &quot;_request_id&quot;: &quot;1747294966725009800004501631780476008382&quot;,
+  &quot;count&quot;: 3,
+  &quot;items&quot;: [
+    {
+      &quot;id&quot;: &quot;1744798842357022245&quot;,
+      &quot;_etag&quot;: 2,
+      &quot;_schema&quot;: 1,
+      &quot;_created_on_utc&quot;: 17447988423570222,
+      &quot;_updated_on_utc&quot;: 17447994004370020,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;Auto_PA_SDWAN_IPSecCrypto&quot;,
+      &quot;description&quot;: &quot;Auto Generated by Prisma Access for Networks&quot;,
+      &quot;tags&quot;: null,
+      &quot;esp_group&quot;: {
+        &quot;lifetime&quot;: 1,
+        &quot;mode&quot;: &quot;tunnel&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;ecp384&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha512&quot;
+          }
+        ],
+        &quot;force_encapsulation&quot;: false
+      },
+      &quot;ike_group&quot;: {
+        &quot;key_exchange&quot;: &quot;ikev2&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;ecp384&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha512&quot;
+          }
+        ],
+        &quot;lifetime&quot;: 8,
+        &quot;aggressive&quot;: false,
+        &quot;reauth&quot;: false,
+        &quot;port&quot;: 500
+      },
+      &quot;authentication&quot;: {
+        &quot;type&quot;: &quot;psk&quot;,
+        &quot;secret&quot;: null,
+        &quot;remote_ca_certificate&quot;: null,
+        &quot;local_ca_certificate&quot;: null,
+        &quot;certificate&quot;: null,
+        &quot;private_key&quot;: null,
+        &quot;passphrase&quot;: null,
+        &quot;local_id&quot;: &quot;custom&quot;,
+        &quot;local_id_custom&quot;: &quot;cgnx-tunnel@PKqBIW1844024960.com&quot;,
+        &quot;remote_id&quot;: &quot;prisma-tunnel@PKqBIW1844024960.com&quot;,
+        &quot;ikev1_params&quot;: null
+      },
+      &quot;dpd_enable&quot;: true,
+      &quot;dpd_delay&quot;: 10,
+      &quot;dpd_timeout&quot;: 30
+    },
+    {
+      &quot;id&quot;: &quot;1746628570410023245&quot;,
+      &quot;_etag&quot;: 1,
+      &quot;_schema&quot;: 1,
+      &quot;_created_on_utc&quot;: 17466285704100232,
+      &quot;_updated_on_utc&quot;: 17466285704100232,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;ska_IPSEC_Profile&quot;,
+      &quot;description&quot;: &quot;testing&quot;,
+      &quot;tags&quot;: null,
+      &quot;esp_group&quot;: {
+        &quot;lifetime&quot;: 8,
+        &quot;mode&quot;: &quot;tunnel&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;modp1536&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha256&quot;,
+            &quot;prf&quot;: &quot;none&quot;
+          }
+        ],
+        &quot;force_encapsulation&quot;: false
+      },
+      &quot;ike_group&quot;: {
+        &quot;key_exchange&quot;: &quot;ikev1&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;ecp256&quot;,
+            &quot;encryption&quot;: &quot;aes192&quot;,
+            &quot;hash&quot;: &quot;sha512&quot;,
+            &quot;prf&quot;: &quot;none&quot;
+          },
+          {
+            &quot;dh_groups&quot;: &quot;ecp384&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha512&quot;,
+            &quot;prf&quot;: &quot;none&quot;
+          }
+        ],
+        &quot;lifetime&quot;: 24,
+        &quot;aggressive&quot;: false,
+        &quot;reauth&quot;: false,
+        &quot;port&quot;: 500
+      },
+      &quot;authentication&quot;: {
+        &quot;type&quot;: &quot;psk&quot;,
+        &quot;secret&quot;: null,
+        &quot;remote_ca_certificate&quot;: null,
+        &quot;local_ca_certificate&quot;: null,
+        &quot;certificate&quot;: null,
+        &quot;private_key&quot;: null,
+        &quot;passphrase&quot;: null,
+        &quot;local_id&quot;: &quot;local_ip&quot;,
+        &quot;local_id_custom&quot;: null,
+        &quot;remote_id&quot;: null,
+        &quot;ikev1_params&quot;: {
+          &quot;xauth_type&quot;: &quot;none&quot;,
+          &quot;xauth_id&quot;: null,
+          &quot;xauth_secret&quot;: null
+        }
+      },
+      &quot;dpd_enable&quot;: true,
+      &quot;dpd_delay&quot;: 1,
+      &quot;dpd_timeout&quot;: 5
+    },
+    {
+      &quot;id&quot;: &quot;1745930187244023745&quot;,
+      &quot;_etag&quot;: 1,
+      &quot;_schema&quot;: 1,
+      &quot;_created_on_utc&quot;: 17459301872440236,
+      &quot;_updated_on_utc&quot;: 17459301872440236,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;TunnelSDWANtoexternal&quot;,
+      &quot;description&quot;: &quot;hgu tunnel&quot;,
+      &quot;tags&quot;: null,
+      &quot;esp_group&quot;: {
+        &quot;lifetime&quot;: 8,
+        &quot;mode&quot;: &quot;tunnel&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;modp2048&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha256&quot;,
+            &quot;prf&quot;: &quot;none&quot;
+          }
+        ],
+        &quot;force_encapsulation&quot;: false
+      },
+      &quot;ike_group&quot;: {
+        &quot;key_exchange&quot;: &quot;ikev2&quot;,
+        &quot;proposals&quot;: [
+          {
+            &quot;dh_groups&quot;: &quot;modp1536&quot;,
+            &quot;encryption&quot;: &quot;aes256&quot;,
+            &quot;hash&quot;: &quot;sha256&quot;,
+            &quot;prf&quot;: &quot;none&quot;
+          }
+        ],
+        &quot;lifetime&quot;: 24,
+        &quot;aggressive&quot;: false,
+        &quot;reauth&quot;: false,
+        &quot;port&quot;: 500
+      },
+      &quot;authentication&quot;: {
+        &quot;type&quot;: &quot;none&quot;,
+        &quot;secret&quot;: null,
+        &quot;remote_ca_certificate&quot;: null,
+        &quot;local_ca_certificate&quot;: null,
+        &quot;certificate&quot;: null,
+        &quot;private_key&quot;: null,
+        &quot;passphrase&quot;: null,
+        &quot;local_id&quot;: &quot;local_ip&quot;,
+        &quot;local_id_custom&quot;: null,
+        &quot;remote_id&quot;: null,
+        &quot;ikev1_params&quot;: {
+          &quot;xauth_type&quot;: &quot;none&quot;,
+          &quot;xauth_id&quot;: null,
+          &quot;xauth_secret&quot;: null
+        }
+      },
+      &quot;dpd_enable&quot;: true,
+      &quot;dpd_delay&quot;: 1,
+      &quot;dpd_timeout&quot;: 5
+    }
+  ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <post_template>{if $params.dpd == &apos;1&apos;}
+	{assign_object_variable var=&quot;dpd_enable&quot; value=true}
+{else}
+	{assign_object_variable var=&quot;dpd_enable&quot; value=false}
+{/if}</post_template>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.items.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;esp_mode&gt;.*)$@</regexp>
+          <xpath>$.esp_group.mode</xpath>
+        </line>
+        <line>
+          <array name="esp_group">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;dh_groups&gt;.*)@</regexp>
+                <xpath>$.dh_groups</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;encryption&gt;.*)@</regexp>
+                <xpath>$.encryption</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;hash&gt;.*)@</regexp>
+                <xpath>$.hash</xpath>
+              </line>
+            </lines>
+            <xpath>$.esp_group.proposals.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="ike_group">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;dh_groups&gt;.*)@</regexp>
+                <xpath>$.dh_groups</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;encryption&gt;.*)@</regexp>
+                <xpath>$.encryption</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;hash&gt;.*)@</regexp>
+                <xpath>$.hash</xpath>
+              </line>
+            </lines>
+            <xpath>$.ike_group.proposals.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;key_exchange&gt;.*)@</regexp>
+          <xpath>$.ike_group.key_exchange</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;authentication_type&gt;.*)@</regexp>
+          <xpath>$.authentication.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;dpd&gt;.*)@</regexp>
+          <xpath>$.dpd_enable</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sdwan/v2.2/api/ipsecprofiles</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "tags": [],
+  "description": "{$params.description}",
+  "dpd_enable": {$params.dpd_enable},
+  "dpd_delay": 1,
+  "dpd_timeout": 5,
+  "authentication": {
+    "certificate": null,
+    "remote_id": null,
+    "secret": null,
+    "remote_ca_certificate": null,
+    "local_ca_certificate": null,
+    "private_key": null,
+    "passphrase": null,
+    "local_id": "local_ip",
+    "local_id_custom": null,
+    "ikev1_params": {
+      "xauth_type": "none",
+      "xauth_id": null,
+      "xauth_secret": null
+    },
+    "type": "{$params.authentication_type}"
+  },
+  "esp_group": {
+    "mode": "{$params.esp_mode}",
+    "lifetime": 8,
+    "proposals": [
+    {foreach $params.esp_group as $es}
+      {
+        "dh_groups": "{$es.dh_groups}",
+        "encryption": "{$es.encryption}",
+        "hash": "{$es.hash}",
+        "prf": "none"
+      }
+{if not $es@last}
+,
+{/if}
+    {/foreach}
+    ],
+    "force_encapsulation": false
+  },
+  "ike_group": {
+    "key_exchange": "{$params.key_exchange}",
+    "aggressive": false,
+    "reauth": false,
+    "lifetime": 24,
+    "proposals": [
+    {foreach $params.ike_group as $ik}
+      {
+        "dh_groups": "{$ik.dh_groups}",
+        "encryption": "{$ik.encryption}",
+        "hash": "{$ik.hash}",
+        "prf": "none"
+      }
+{if not $ik@last}
+,
+{/if}
+    {/foreach}
+    ],
+    "port": 500
+  }
+}]]></operation>
+    <rest>POST</rest>
+    <xpath>/sdwan/v2.2/api/ipsecprofiles</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "tags": null,
+  "description": "{$params.description}",
+  "dpd_enable": true,
+  "dpd_delay": 1,
+  "dpd_timeout": 5,
+  "authentication": {
+    "type": "{$params.authentication_type}",
+    "secret": null,
+    "remote_ca_certificate": null,
+    "local_ca_certificate": null,
+    "certificate": null,
+    "private_key": null,
+    "passphrase": null,
+    "local_id": "local_ip",
+    "local_id_custom": null,
+    "remote_id": null,
+    "ikev1_params": {
+      "xauth_type": "none",
+      "xauth_id": null,
+      "xauth_secret": null
+    }
+  },
+  "esp_group": {
+    "lifetime": 8,
+    "mode": "{$params.esp_mode}",
+    "proposals": [
+    {foreach $params.esp_group as $es}
+      {
+        "dh_groups": "{$es.dh_groups}",
+        "encryption": "{$es.encryption}",
+        "hash": "{$es.hash}",
+        "prf": "none"
+      }
+{if not $es@last}
+,
+{/if}
+    {/foreach}
+    ],
+    "force_encapsulation": false
+  },
+  "ike_group": {
+    "key_exchange": "{$params.key_exchange}",
+    "proposals": [
+    {foreach $params.ike_group as $ik}
+      {
+        "dh_groups": "{$ik.dh_groups}",
+        "encryption": "{$ik.encryption}",
+        "hash": "{$ik.hash}",
+        "prf": "none"
+      }
+{if not $ik@last}
+,
+{/if}
+    {/foreach}
+    ],
+    "lifetime": 24,
+    "aggressive": false,
+    "reauth": false,
+    "port": 500
+  }
+}
+
+
+]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sdwan/v2.2/api/ipsecprofiles/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sdwan/v2.2/api/ipsecprofiles/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>IPSec Profile</displayName>
+  <order>0</order>
+</ObjectDefinition>

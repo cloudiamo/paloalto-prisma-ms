@@ -1,0 +1,1386 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>IPSec Tunnel</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Type" name="params.type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="service_link" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="MTU" name="params.mtu" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1500" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="IP Type" name="params.ip_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="static" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="address" name="params.address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Parent Interface" name="params.parent_interface" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Interfaces</class>
+      </classes>
+    </variable>
+    <variable displayName="admin_up" name="params.admin_up" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="service_link_config_type" name="params.service_link_config_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="ipsec" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="service_endpoint_id" name="params.service_endpoint_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Endpoints</class>
+      </classes>
+    </variable>
+    <variable displayName="ipsec_profile_id" name="params.ipsec_profile_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>IPSec_Profile</class>
+      </classes>
+    </variable>
+    <variable displayName="authentication_type" name="params.authentication_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="psk" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="authentication_secret" name="params.authentication_secret" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="authentication_local_id" name="params.authentication_local_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="custom" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="authentication_local_id_custom" name="params.authentication_local_id_custom" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="name@ubiqube.com" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;_etag&quot;: 0,
+  &quot;_content_length&quot;: &quot;22863&quot;,
+  &quot;_schema&quot;: 0,
+  &quot;_created_on_utc&quot;: 0,
+  &quot;_updated_on_utc&quot;: 0,
+  &quot;_status_code&quot;: &quot;200&quot;,
+  &quot;_request_id&quot;: &quot;1748002069156015699996920264178240286753&quot;,
+  &quot;count&quot;: 14,
+  &quot;items&quot;: [
+    {
+      &quot;id&quot;: &quot;1746441712694010845&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417126940108,
+      &quot;_updated_on_utc&quot;: 17464417135290178,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;5&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712742011445&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417127420114,
+      &quot;_updated_on_utc&quot;: 17464417135250176,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;3&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712787012045&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417127870120,
+      &quot;_updated_on_utc&quot;: 17464417135060172,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;8&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712824012645&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417128240126,
+      &quot;_updated_on_utc&quot;: 17464417135400180,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;2&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712865013245&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417128650132,
+      &quot;_updated_on_utc&quot;: 17464417135530182,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;9&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712902013845&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417129020138,
+      &quot;_updated_on_utc&quot;: 17464417135100174,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;7&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712947014445&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417129470144,
+      &quot;_updated_on_utc&quot;: 17464417135330180,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;4&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441712984015045&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417129840150,
+      &quot;_updated_on_utc&quot;: 17464417135210176,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;6&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: null,
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441713025015645&quot;,
+      &quot;_etag&quot;: 8,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417130250156,
+      &quot;_updated_on_utc&quot;: 17464556568120016,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;1&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;10.101.1.1/24&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: null,
+        &quot;routes&quot;: null
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: true,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;private&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: {
+        &quot;multicast_enabled&quot;: false,
+        &quot;igmp_version&quot;: null,
+        &quot;dr_priority&quot;: 1,
+        &quot;igmp_static_joins&quot;: null
+      },
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746441713065016245&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464417130650162,
+      &quot;_updated_on_utc&quot;: 17464417135150176,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;controller 1&quot;,
+      &quot;description&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;port&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;10.31.1.217/24&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: {
+          &quot;name_servers&quot;: [
+            &quot;8.8.8.8&quot;,
+            &quot;8.8.4.4&quot;
+          ]
+        },
+        &quot;routes&quot;: [
+          {
+            &quot;via&quot;: &quot;10.31.1.251&quot;,
+            &quot;destination&quot;: &quot;0.0.0.0/0&quot;
+          }
+        ]
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: true,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: null,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: null,
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: null,
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746455656806001445&quot;,
+      &quot;_etag&quot;: 2,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17464556568060014,
+      &quot;_updated_on_utc&quot;: 17464556652710190,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;Tunnel001&quot;,
+      &quot;description&quot;: &quot;Tunnel&quot;,
+      &quot;type&quot;: &quot;service_link&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;10.101.2.1/24&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: null,
+        &quot;routes&quot;: null
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: true,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: &quot;1746441713025015645&quot;,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: {
+        &quot;type&quot;: &quot;ipsec&quot;,
+        &quot;service_endpoint_id&quot;: null,
+        &quot;peer&quot;: {
+          &quot;ip_addresses&quot;: [
+            &quot;1.1.1.1&quot;
+          ],
+          &quot;hostname&quot;: &quot;netskope POP1&quot;
+        },
+        &quot;ipsec_config&quot;: {
+          &quot;ipsec_profile_id&quot;: &quot;1745930187244023745&quot;,
+          &quot;authentication&quot;: null
+        },
+        &quot;gre_config&quot;: null,
+        &quot;passive_mode&quot;: {
+          &quot;enable&quot;: false
+        }
+      },
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: {
+        &quot;multicast_enabled&quot;: false,
+        &quot;igmp_version&quot;: null,
+        &quot;dr_priority&quot;: 1,
+        &quot;igmp_static_joins&quot;: null
+      },
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746515334294018045&quot;,
+      &quot;_etag&quot;: 2,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17465153342940180,
+      &quot;_updated_on_utc&quot;: 17466292348610084,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;ska_ipsec_tunnel&quot;,
+      &quot;description&quot;: &quot;testing ipsec vpn&quot;,
+      &quot;type&quot;: &quot;service_link&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;12.12.12.1/24&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: null,
+        &quot;routes&quot;: null
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: true,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: &quot;1746441713025015645&quot;,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: {
+        &quot;type&quot;: &quot;ipsec&quot;,
+        &quot;service_endpoint_id&quot;: &quot;1744798853019011445&quot;,
+        &quot;peer&quot;: {
+          &quot;ip_addresses&quot;: [
+            &quot;21.21.21.1&quot;
+          ],
+          &quot;hostname&quot;: &quot;test123&quot;
+        },
+        &quot;ipsec_config&quot;: {
+          &quot;ipsec_profile_id&quot;: &quot;1746628570410023245&quot;,
+          &quot;authentication&quot;: null
+        },
+        &quot;gre_config&quot;: null,
+        &quot;passive_mode&quot;: {
+          &quot;enable&quot;: false
+        }
+      },
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: [
+        &quot;IPSEC&quot;
+      ],
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: {
+        &quot;multicast_enabled&quot;: false,
+        &quot;igmp_version&quot;: null,
+        &quot;dr_priority&quot;: 1,
+        &quot;igmp_static_joins&quot;: null
+      },
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1746545203791009645&quot;,
+      &quot;_etag&quot;: 3,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17465452037910096,
+      &quot;_updated_on_utc&quot;: 17465454311680228,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;Netskope&quot;,
+      &quot;description&quot;: null,
+      &quot;type&quot;: &quot;service_link&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;10.0.0.0/31&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: null,
+        &quot;routes&quot;: null
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: false,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: &quot;1746441713025015645&quot;,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: {
+        &quot;type&quot;: &quot;gre&quot;,
+        &quot;service_endpoint_id&quot;: null,
+        &quot;peer&quot;: {
+          &quot;ip_addresses&quot;: [
+            &quot;1.2.3.3&quot;
+          ],
+          &quot;hostname&quot;: &quot;&quot;
+        },
+        &quot;ipsec_config&quot;: null,
+        &quot;gre_config&quot;: {
+          &quot;csum&quot;: false,
+          &quot;keepalive_enable&quot;: false,
+          &quot;keepalive_interval&quot;: 10,
+          &quot;keepalive_fail_count&quot;: 3
+        },
+        &quot;passive_mode&quot;: null
+      },
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: {
+        &quot;multicast_enabled&quot;: false,
+        &quot;igmp_version&quot;: null,
+        &quot;dr_priority&quot;: 1,
+        &quot;igmp_static_joins&quot;: null
+      },
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1748001234786014245&quot;,
+      &quot;_etag&quot;: 1,
+      &quot;_schema&quot;: 4,
+      &quot;_created_on_utc&quot;: 17480012347860142,
+      &quot;_updated_on_utc&quot;: 17480012347860142,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;vpn_for_ms&quot;,
+      &quot;description&quot;: &quot;test&quot;,
+      &quot;type&quot;: &quot;service_link&quot;,
+      &quot;attached_lan_networks&quot;: null,
+      &quot;site_wan_interface_ids&quot;: null,
+      &quot;mac_address&quot;: null,
+      &quot;mtu&quot;: 1500,
+      &quot;ipv4_config&quot;: {
+        &quot;type&quot;: &quot;static&quot;,
+        &quot;static_config&quot;: {
+          &quot;address&quot;: &quot;32.12.12.1/23&quot;
+        },
+        &quot;dhcp_config&quot;: null,
+        &quot;dns_v4_config&quot;: null,
+        &quot;routes&quot;: null
+      },
+      &quot;dhcp_relay&quot;: null,
+      &quot;ethernet_port&quot;: {
+        &quot;full_duplex&quot;: false,
+        &quot;speed&quot;: 0
+      },
+      &quot;admin_up&quot;: true,
+      &quot;nat_address&quot;: null,
+      &quot;nat_port&quot;: 0,
+      &quot;used_for&quot;: &quot;none&quot;,
+      &quot;bound_interfaces&quot;: null,
+      &quot;sub_interface&quot;: null,
+      &quot;pppoe_config&quot;: null,
+      &quot;parent&quot;: &quot;1746441713025015645&quot;,
+      &quot;network_context_id&quot;: null,
+      &quot;bypass_pair&quot;: null,
+      &quot;service_link_config&quot;: {
+        &quot;type&quot;: &quot;ipsec&quot;,
+        &quot;service_endpoint_id&quot;: &quot;1747988044641002045&quot;,
+        &quot;peer&quot;: null,
+        &quot;ipsec_config&quot;: {
+          &quot;ipsec_profile_id&quot;: &quot;1747916270919012245&quot;,
+          &quot;authentication&quot;: {
+            &quot;type&quot;: &quot;psk&quot;,
+            &quot;secret&quot;: null,
+            &quot;remote_ca_certificate&quot;: null,
+            &quot;local_ca_certificate&quot;: null,
+            &quot;certificate&quot;: null,
+            &quot;private_key&quot;: null,
+            &quot;passphrase&quot;: null,
+            &quot;local_id&quot;: &quot;local_ip&quot;,
+            &quot;local_id_custom&quot;: null,
+            &quot;remote_id&quot;: null,
+            &quot;ikev1_params&quot;: {
+              &quot;xauth_type&quot;: &quot;none&quot;,
+              &quot;xauth_id&quot;: null,
+              &quot;xauth_secret&quot;: null
+            }
+          }
+        },
+        &quot;gre_config&quot;: null,
+        &quot;passive_mode&quot;: null
+      },
+      &quot;scope&quot;: &quot;local&quot;,
+      &quot;tags&quot;: null,
+      &quot;nat_zone_id&quot;: null,
+      &quot;devicemgmt_policysetstack_id&quot;: null,
+      &quot;nat_pools&quot;: null,
+      &quot;directed_broadcast&quot;: false,
+      &quot;ipfixcollectorcontext_id&quot;: null,
+      &quot;ipfixfiltercontext_id&quot;: null,
+      &quot;secondary_ip_configs&quot;: null,
+      &quot;static_arp_configs&quot;: null,
+      &quot;cellular_config&quot;: null,
+      &quot;multicast_config&quot;: {
+        &quot;multicast_enabled&quot;: false,
+        &quot;igmp_version&quot;: null,
+        &quot;dr_priority&quot;: 1,
+        &quot;igmp_static_joins&quot;: null
+      },
+      &quot;ipv6_config&quot;: null,
+      &quot;nat_address_v6&quot;: null,
+      &quot;nat_port_v6&quot;: 0,
+      &quot;poe_enabled&quot;: false,
+      &quot;power_usage_threshold&quot;: 0,
+      &quot;lldp_enabled&quot;: false,
+      &quot;switch_port_config&quot;: null,
+      &quot;interface_profile_id&quot;: null,
+      &quot;vlan_config&quot;: null,
+      &quot;authentication_config&quot;: null,
+      &quot;peer_bypasspair_wan_port_type&quot;: &quot;none&quot;,
+      &quot;vrf_context_id&quot;: &quot;1744798835489020045&quot;,
+      &quot;port_channel_config&quot;: null,
+      &quot;sgi_apply_static_tag&quot;: false,
+      &quot;loopback_config&quot;: null,
+      &quot;fec_mode&quot;: null
+    }
+  ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.items.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;type&gt;.*)@</regexp>
+          <xpath>$.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;mtu&gt;.*)$@</regexp>
+          <xpath>$.mtu</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ip_type&gt;.*)$@</regexp>
+          <xpath>$.ipv4_config.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;address&gt;.*)$@</regexp>
+          <xpath>$.ipv4_config.static_config.address</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;admin_up&gt;.*)$@</regexp>
+          <xpath>$.admin_up</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;service_link_config_type&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;service_endpoint_id&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.service_endpoint_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ipsec_profile_id&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.ipsec_config.ipsec_profile_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;authentication_type&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.ipsec_config.authentication.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;authentication_local_id&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.ipsec_config.authentication.local_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;authentication_local_id_custom&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.ipsec_config.authentication.local_id_custom</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;authentication_secret&gt;.*)$@</regexp>
+          <xpath>$.service_link_config.ipsec_config.authentication.secret</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;parent_interface&gt;.*)$@</regexp>
+          <xpath>$.parent</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sdwan/v4.21/api/sites/1745935798887005245/elements/1746441542778017745/interfaces</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "description": "{$params.description}",
+  "type": "{$params.type}",
+  "attached_lan_networks": null,
+  "site_wan_interface_ids": null,
+  "mac_address": null,
+  "mtu": {$params.mtu},
+  "ipv4_config": {
+    "type": "{$params.ip_type}",
+    "static_config": {
+      "address": "{$params.address}"
+    },
+    "dhcp_config": null,
+    "dns_v4_config": null,
+    "routes": null
+  },
+  "ipv6_config": null,
+  "dhcp_relay": null,
+  "ethernet_port": {
+    "full_duplex": false,
+    "speed": 0
+  },
+  "admin_up": {if $params.admin_up == true}true{else}false{/if},
+  "nat_address": null,
+  "nat_port": null,
+  "nat_address_v6": null,
+  "nat_port_v6": 0,
+  "used_for": "none",
+  "bound_interfaces": null,
+  "sub_interface": null,
+  "pppoe_config": null,
+  "parent": "{$params.parent_interface}",
+  "network_context_id": null,
+  "bypass_pair": null,
+  "peer_bypasspair_wan_port_type": "none",
+  "port_channel_config": null,
+  "sgi_apply_static_tag": null,
+  "service_link_config": {
+    "type": "{$params.service_link_config_type}",
+    "service_endpoint_id": "{$params.service_endpoint_id}",
+    "gre_config": null,
+    "peer": null,
+    "passive_mode": null,
+    "ipsec_config": {
+      "ipsec_profile_id": "{$params.ipsec_profile_id}",
+      "authentication": {
+        "certificate": null,
+        "remote_id": null,
+        "secret": "{$params.authentication_secret}",
+        "remote_ca_certificate": null,
+        "local_ca_certificate": null,
+        "private_key": null,
+        "passphrase": null,
+        "local_id": "{$params.authentication_local_id}",
+        "local_id_custom": "{$params.authentication_local_id_custom}",
+        "ikev1_params": {
+          "xauth_type": "none",
+          "xauth_id": null,
+          "xauth_secret": null
+        },
+        "type": "{$params.authentication_type}"
+      }
+    }
+  },
+  "scope": "local",
+  "tags": null,
+  "nat_zone_id": null,
+  "devicemgmt_policysetstack_id": null,
+  "nat_pools": null,
+  "directed_broadcast": false,
+  "ipfixcollectorcontext_id": null,
+  "ipfixfiltercontext_id": null,
+  "secondary_ip_configs": null,
+  "static_arp_configs": null,
+  "cellular_config": null,
+  "multicast_config": null,
+  "poe_enabled": false,
+  "power_usage_threshold": 0,
+  "lldp_enabled": false,
+  "switch_port_config": null,
+  "authentication_config": null,
+  "vlan_config": null,
+  "interface_profile_id": null,
+  "vrf_context_id": "1744798835489020045",
+  "fec_mode": null,
+  "loopback_config": null
+}]]></operation>
+    <rest>POST</rest>
+    <xpath>/sdwan/v4.21/api/sites/1745935798887005245/elements/1746441542778017745/interfaces</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{
+  "id": "{$params.object_id}",
+  "name": "{$params.name}",
+  "description": "{$params.description}",
+  "type": "{$params.type}",
+  "attached_lan_networks": null,
+  "site_wan_interface_ids": null,
+  "mac_address": null,
+  "mtu": {$params.mtu},
+  "ipv4_config": {
+    "type": "{$params.ip_type}",
+    "static_config": {
+      "address": "{$params.address}"
+    },
+    "dhcp_config": null,
+    "dns_v4_config": null,
+    "routes": null
+  },
+  "ipv6_config": null,
+  "dhcp_relay": null,
+  "ethernet_port": {
+    "full_duplex": false,
+    "speed": 0
+  },
+  "admin_up": {if $params.admin_up == true}true{else}false{/if},
+  "nat_address": null,
+  "nat_port": null,
+  "nat_address_v6": null,
+  "nat_port_v6": 0,
+  "used_for": "none",
+  "bound_interfaces": null,
+  "sub_interface": null,
+  "pppoe_config": null,
+  "parent": "{$params.parent_interface}",
+  "network_context_id": null,
+  "bypass_pair": null,
+  "peer_bypasspair_wan_port_type": "none",
+  "port_channel_config": null,
+  "sgi_apply_static_tag": null,
+  "service_link_config": {
+    "type": "{$params.service_link_config_type}",
+    "service_endpoint_id": "{$params.service_endpoint_id}",
+    "gre_config": null,
+    "peer": null,
+    "passive_mode": null,
+    "ipsec_config": {
+      "ipsec_profile_id": "{$params.ipsec_profile_id}",
+      "authentication": {
+        "certificate": null,
+        "remote_id": null,
+        "secret": null,
+        "remote_ca_certificate": null,
+        "local_ca_certificate": null,
+        "private_key": null,
+        "passphrase": null,
+        "local_id": "{$params.authentication_local_id}",
+        "local_id_custom": "{$params.authentication_local_id_custom}",
+        "ikev1_params": {
+          "xauth_type": "none",
+          "xauth_id": null,
+          "xauth_secret": null
+        },
+        "type": "{$params.authentication_type}"
+      }
+    }
+  },
+  "scope": "local",
+  "tags": null,
+  "nat_zone_id": null,
+  "devicemgmt_policysetstack_id": null,
+  "nat_pools": null,
+  "directed_broadcast": false,
+  "ipfixcollectorcontext_id": null,
+  "ipfixfiltercontext_id": null,
+  "secondary_ip_configs": null,
+  "static_arp_configs": null,
+  "cellular_config": null,
+  "multicast_config": null,
+  "poe_enabled": false,
+  "power_usage_threshold": 0,
+  "lldp_enabled": false,
+  "switch_port_config": null,
+  "authentication_config": null,
+  "vlan_config": null,
+  "interface_profile_id": null,
+  "vrf_context_id": "1744798835489020045",
+  "fec_mode": null,
+  "loopback_config": null
+}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sdwan/v4.21/api/sites/1745935798887005245/elements/1746441542778017745/interfaces/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sdwan/v4.21/api/sites/1745935798887005245/elements/1746441542778017745/interfaces/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>IPSec Tunnel</displayName>
+  <order>0</order>
+</ObjectDefinition>
