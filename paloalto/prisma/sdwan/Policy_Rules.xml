@@ -1,0 +1,187 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Policy Rules</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>10</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Policy Set" name="params.policy_set" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="5" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Policy_Sets</class>
+      </classes>
+    </variable>
+    <variable displayName="Name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Service Context Type" name="params.service_context_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Active Service Label ID" name="params.active_service_label_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Service_Group</class>
+      </classes>
+    </variable>
+  </variables>
+  <example>
+    <content>[
+  {
+    &quot;app_def_ids&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;best_path_config&quot;: {
+      &quot;metric&quot;: &quot;LATENCY&quot;,
+      &quot;metric_type&quot;: &quot;PROBE&quot;,
+      &quot;probe_config_id&quot;: &quot;string&quot;
+    },
+    &quot;dest_device_ids&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;destination_prefixes_id&quot;: &quot;string&quot;,
+    &quot;enabled&quot;: true,
+    &quot;id&quot;: &quot;string&quot;,
+    &quot;name&quot;: &quot;string&quot;,
+    &quot;network_context_id&quot;: &quot;string&quot;,
+    &quot;order_number&quot;: 0,
+    &quot;paths_allowed&quot;: {
+      &quot;active_paths&quot;: [
+        {
+          &quot;label&quot;: &quot;string&quot;,
+          &quot;path_type&quot;: &quot;vpn&quot;
+        }
+      ],
+      &quot;backup_paths&quot;: [
+        {
+          &quot;label&quot;: &quot;string&quot;,
+          &quot;path_type&quot;: &quot;vpn&quot;
+        }
+      ],
+      &quot;l3_failure_paths&quot;: [
+        {
+          &quot;label&quot;: &quot;string&quot;,
+          &quot;path_type&quot;: &quot;vpn&quot;
+        }
+      ]
+    },
+    &quot;service_context&quot;: {
+      &quot;active_service_label_id&quot;: &quot;string&quot;,
+      &quot;active_service_label_type&quot;: &quot;CG_TRANSIT&quot;,
+      &quot;backup_service_label_id&quot;: &quot;string&quot;,
+      &quot;backup_service_label_type&quot;: &quot;CG_TRANSIT&quot;,
+      &quot;type&quot;: &quot;ALLOWED_TRANSIT&quot;
+    },
+    &quot;source_prefixes_id&quot;: &quot;string&quot;,
+    &quot;src_device_ids&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;tags&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;user_or_group&quot;: {
+      &quot;user_group_ids&quot;: [
+        &quot;string&quot;
+      ],
+      &quot;user_ids&quot;: [
+        &quot;string&quot;
+      ]
+    }
+  }
+]</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.items.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;service_context_type&gt;.*)$@</regexp>
+          <xpath>$.service_context.type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;active_service_label_id&gt;.*)$@</regexp>
+          <xpath>$.service_context.active_service_label_id</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>{foreach $Policy_Sets as $ps}/sdwan/v2.4/api/networkpolicysets/{$ps.object_id}/networkpolicyrules##{/foreach}</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "description": "{$params.description}",
+  "tags": null,
+  "network_context_id": null,
+  "source_prefixes_id": null,
+  "destination_prefixes_id": null,
+  "app_def_ids": [
+    "1744798855795007145"
+  ],
+  "paths_allowed": {
+    "active_paths": [
+      {
+        "path_type": "servicelink",
+        "label": "public-*"
+      }
+    ],
+    "backup_paths": null,
+    "l3_failure_paths": null
+  },
+  "service_context": {
+    "type": "allowed-transit",
+    "backup_service_label_id": null,
+    "active_service_label_id": "{$params.active_service_label_id}"
+  },
+  "order_number": 1024,
+  "enabled": true,
+  "user_or_group": null,
+  "src_device_ids": null,
+  "dest_device_ids": null,
+  "best_path_config": null
+}]]></operation>
+    <rest>POST</rest>
+    <xpath>/sdwan/v2.4/api/networkpolicysets/{$params.policy_set}/networkpolicyrules</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sdwan/v2.4/api/networkpolicysets/{$params.policy_set}/networkpolicyrules/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>Policy Rules</displayName>
+  <order>0</order>
+</ObjectDefinition>

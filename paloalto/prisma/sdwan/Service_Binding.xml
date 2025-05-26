@@ -1,0 +1,170 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Service Binding</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="4" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="service_lable_id" name="params.service_bindings.0.service_lable_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Service_Group</class>
+      </classes>
+    </variable>
+    <variable displayName="service_endpoint_ids" name="params.service_bindings.0.details.0.service_endpoint_ids" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>Endpoints</class>
+      </classes>
+    </variable>
+  </variables>
+  <example>
+    <content>{
+  &quot;count&quot;: 0,
+  &quot;id&quot;: &quot;string&quot;,
+  &quot;items&quot;: [
+    {
+      &quot;id&quot;: &quot;string&quot;,
+      &quot;is_default&quot;: true,
+      &quot;name&quot;: &quot;string&quot;,
+      &quot;service_bindings&quot;: [
+        {
+          &quot;service_endpoint_ids&quot;: [
+            &quot;string&quot;
+          ],
+          &quot;service_label_id&quot;: &quot;string&quot;
+        }
+      ],
+      &quot;tags&quot;: [
+        &quot;string&quot;
+      ]
+    }
+  ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.items.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <array name="service_bindings">
+            <lines>
+              <line>
+                <array name="details">
+                  <lines>
+                    <line>
+                      <regexp>@^(?&lt;service_endpoint_ids&gt;.*)$@</regexp>
+                      <xpath>$.*</xpath>
+                    </line>
+                  </lines>
+                  <xpath>$.service_endpoint_ids.*</xpath>
+                </array>
+                <regexp></regexp>
+                <xpath></xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;service_lable_id&gt;.*)$@</regexp>
+                <xpath>$.service_label_id</xpath>
+              </line>
+            </lines>
+            <xpath>$.service_bindings.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sdwan/v2.1/api/servicebindingmaps</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "description": null,
+  "is_default": false,
+  "service_bindings": [
+    {foreach $params.service_bindings as $sb}
+    {
+      "service_label_id": "{$sb.service_lable_id}",
+      "service_endpoint_ids": [
+      {foreach $sb.details as $sd}
+        "{$sd.service_endpoint_ids}"{if not $sd@last},{/if}
+      {/foreach}
+      ]
+    }{if not $sb@last},{/if}
+    {/foreach}
+  ],
+  "tags": null
+}]]></operation>
+    <rest>POST</rest>
+    <xpath>/sdwan/v2.1/api/servicebindingmaps</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{
+  "name": "{$params.name}",
+  "description": "{$params.description}",
+  "is_default": true,
+  "service_bindings": [
+    {foreach $params.service_bindings as $sb}
+    {
+      "service_label_id": "{$sb.service_lable_id}",
+      "service_endpoint_ids": [
+      {foreach $sb.details as $sd}
+        "{$sd.service_endpoint_ids}"{if not $sd@last},{/if}
+      {/foreach}
+      ]
+    }{if not $sb@last},{/if}
+    {/foreach}
+  ],
+  "tags": null
+}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sdwan/v2.1/api/servicebindingmaps/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sdwan/v2.1/api/servicebindingmaps/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>Service Binding</displayName>
+  <order>0</order>
+</ObjectDefinition>
