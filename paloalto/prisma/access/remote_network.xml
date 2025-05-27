@@ -473,7 +473,13 @@
     <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks</xpath>
   </command>
   <command name="CREATE">
-    <operation><![CDATA[{literal}{
+    <operation><![CDATA[{$region = $params.region} 
+{if strpos($region, '-') !== false}
+    {$region = str_replace('-', ' ', $region)}
+{/if}
+{$region = ucwords($region)}
+
+{literal}{
 {/literal}
   "name": "{$params.object_id}",
   {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
@@ -535,7 +541,7 @@
   },
   {/if}
 
-  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.region},"region": "{$region}"{/if}
   {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
   {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
 
@@ -554,7 +560,13 @@
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <operation><![CDATA[{literal}{
+    <operation><![CDATA[{$region = $params.region} 
+{if strpos($region, '-') !== false}
+    {$region = str_replace('-', ' ', $region)}
+{/if}
+{$region = ucwords($region)}
+
+{literal}{
 {/literal}
   "name": "{$params.object_id}",
   {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
@@ -616,7 +628,7 @@
   },
   {/if}
 
-  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.region},"region": "{$region}"{/if}
   {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
   {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
 
