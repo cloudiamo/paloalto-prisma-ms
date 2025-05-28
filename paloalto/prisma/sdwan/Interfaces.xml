@@ -1112,7 +1112,7 @@
         </line>
       </lines>
     </parser>
-    <xpath>/sdwan/v4.21/api/sites/1745935798887005245/elements/1746441542778017745/interfaces</xpath>
+    <xpath>{foreach $Elements as $el}/sdwan/v4.21/api/sites/{$el.site_id}/elements/{$el.object_id}/interfaces##{/foreach}</xpath>
   </command>
   <command name="CREATE"/>
   <command name="READ"/>

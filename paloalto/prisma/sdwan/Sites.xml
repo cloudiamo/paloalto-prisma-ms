@@ -1,0 +1,182 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Sites</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="admin_state" name="params.admin_state" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="city" name="params.city" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="country" name="params.country" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;_etag&quot;: 0,
+  &quot;_content_length&quot;: &quot;2464&quot;,
+  &quot;_schema&quot;: 0,
+  &quot;_created_on_utc&quot;: 0,
+  &quot;_updated_on_utc&quot;: 0,
+  &quot;_status_code&quot;: &quot;200&quot;,
+  &quot;_request_id&quot;: &quot;1748348203425006099997032007266698336030&quot;,
+  &quot;count&quot;: 2,
+  &quot;items&quot;: [
+    {
+      &quot;id&quot;: &quot;1745496427456013545&quot;,
+      &quot;_etag&quot;: 4,
+      &quot;_schema&quot;: 0,
+      &quot;_created_on_utc&quot;: 17454964274560136,
+      &quot;_updated_on_utc&quot;: 17464556764470060,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;PrismSDWAN_Branch001&quot;,
+      &quot;description&quot;: null,
+      &quot;tags&quot;: null,
+      &quot;admin_state&quot;: &quot;disabled&quot;,
+      &quot;address&quot;: {
+        &quot;street&quot;: &quot;&quot;,
+        &quot;street2&quot;: null,
+        &quot;city&quot;: &quot;echirolles&quot;,
+        &quot;state&quot;: &quot;&quot;,
+        &quot;post_code&quot;: &quot;&quot;,
+        &quot;country&quot;: &quot;France&quot;
+      },
+      &quot;location&quot;: {
+        &quot;longitude&quot;: 5.71776,
+        &quot;latitude&quot;: 45.14841,
+        &quot;description&quot;: null
+      },
+      &quot;policy_set_id&quot;: null,
+      &quot;element_cluster_role&quot;: &quot;SPOKE&quot;,
+      &quot;security_policyset_id&quot;: null,
+      &quot;service_binding&quot;: &quot;1745496401067004545&quot;,
+      &quot;network_policysetstack_id&quot;: &quot;1744798901677007345&quot;,
+      &quot;priority_policysetstack_id&quot;: &quot;1744798902652024545&quot;,
+      &quot;nat_policysetstack_id&quot;: &quot;1744798903472000345&quot;,
+      &quot;extended_tags&quot;: null,
+      &quot;security_policysetstack_id&quot;: null,
+      &quot;multicast_peer_group_id&quot;: null,
+      &quot;vrf_context_profile_id&quot;: &quot;1744798835528020345&quot;,
+      &quot;perfmgmt_policysetstack_id&quot;: &quot;1744798903848024445&quot;,
+      &quot;branch_gateway&quot;: false,
+      &quot;prefer_lan_default_over_wan_default_route&quot;: false,
+      &quot;app_acceleration_enabled&quot;: true,
+      &quot;sgi_config&quot;: null
+    },
+    {
+      &quot;id&quot;: &quot;1745935798887005245&quot;,
+      &quot;_etag&quot;: 4,
+      &quot;_schema&quot;: 0,
+      &quot;_created_on_utc&quot;: 17459357988870052,
+      &quot;_updated_on_utc&quot;: 17459405340130008,
+      &quot;_debug&quot;: null,
+      &quot;_info&quot;: null,
+      &quot;_warning&quot;: null,
+      &quot;_error&quot;: null,
+      &quot;name&quot;: &quot;SASE-OPLAB-vION-GRENOBLE&quot;,
+      &quot;description&quot;: null,
+      &quot;tags&quot;: null,
+      &quot;admin_state&quot;: &quot;active&quot;,
+      &quot;address&quot;: {
+        &quot;street&quot;: &quot;Parc Sud Galaxie&quot;,
+        &quot;street2&quot;: null,
+        &quot;city&quot;: &quot;Echirolles&quot;,
+        &quot;state&quot;: &quot;&quot;,
+        &quot;post_code&quot;: &quot;38130&quot;,
+        &quot;country&quot;: &quot;France&quot;
+      },
+      &quot;location&quot;: {
+        &quot;longitude&quot;: 5.720577,
+        &quot;latitude&quot;: 45.139175,
+        &quot;description&quot;: null
+      },
+      &quot;policy_set_id&quot;: null,
+      &quot;element_cluster_role&quot;: &quot;HUB&quot;,
+      &quot;security_policyset_id&quot;: null,
+      &quot;service_binding&quot;: null,
+      &quot;network_policysetstack_id&quot;: null,
+      &quot;priority_policysetstack_id&quot;: null,
+      &quot;nat_policysetstack_id&quot;: null,
+      &quot;extended_tags&quot;: null,
+      &quot;security_policysetstack_id&quot;: null,
+      &quot;multicast_peer_group_id&quot;: null,
+      &quot;vrf_context_profile_id&quot;: &quot;1744798835528020345&quot;,
+      &quot;perfmgmt_policysetstack_id&quot;: null,
+      &quot;branch_gateway&quot;: false,
+      &quot;prefer_lan_default_over_wan_default_route&quot;: false,
+      &quot;app_acceleration_enabled&quot;: false,
+      &quot;sgi_config&quot;: null
+    }
+  ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.items.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;admin_state&gt;.*)$@</regexp>
+          <xpath>$.admin_state</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;city&gt;.*)$@</regexp>
+          <xpath>$.address.city</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;country&gt;.*)$@</regexp>
+          <xpath>$.address.country</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sdwan/v4.12/api/sites</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>Sites</displayName>
+  <order>0</order>
+</ObjectDefinition>
