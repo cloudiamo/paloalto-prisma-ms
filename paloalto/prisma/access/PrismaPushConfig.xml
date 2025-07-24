@@ -68,8 +68,8 @@
   {if $params.description}, "description": "{$params.description|escape:'json'}"{/if}
 {literal}} {/literal}
 ]]></operation>
-    <rest></rest>
-    <xpath></xpath>
+    <rest>POST</rest>
+    <xpath>/config/operations/v1/config-versions/candidate:push</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
