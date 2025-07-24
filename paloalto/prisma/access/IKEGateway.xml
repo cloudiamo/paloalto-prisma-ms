@@ -1,0 +1,397 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>IKE_gateway</name>
+    <group>Default|SSE|PaloAlto|Prisma Access</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.id" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="Index" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Folder" name="params.folder" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="16" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Remote Networks" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="PSK" name="params.pre_shared_key" startIncrement="0" type="Password" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="70" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Local ID" name="params.local_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" validationRegex="^.{4,1024}$|^(.+\@[a-zA-Z0-9.-]+)$|^([$a-zA-Z0-9_:.-]+)$|^(([[:xdigit:]][[:xdigit:]])+)$|^([a-zA-Z0-9.]+=(\\,|[^,])+[, ]+)*([a-zA-Z0-9.]+=(\\,|[^,])+)$" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>LOCAL</sections>
+      </sections>
+    </variable>
+    <variable displayName="Type" name="params.local_id_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="fqdn" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>LOCAL</sections>
+      </sections>
+    </variable>
+    <variable displayName="Peer ID" name="params.peer_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" validationRegex="^.{4,1024}$|^(.+\@[a-zA-Z0-9.-]+)$|^([$a-zA-Z0-9_:.-]+)$|^(([[:xdigit:]][[:xdigit:]])+)$|^([a-zA-Z0-9.]+=(\\,|[^,])+[, ]+)*([a-zA-Z0-9.]+=(\\,|[^,])+)$" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PEER</sections>
+      </sections>
+    </variable>
+    <variable displayName="Type" name="params.peer_id_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="fqdn" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PEER</sections>
+      </sections>
+      <values>
+        <values displayValue="ipaddr">ipaddr</values>
+        <values displayValue="keyid">keyid</values>
+        <values displayValue="fqdn">fqdn</values>
+        <values displayValue="ufqdn">ufqdn</values>
+      </values>
+    </variable>
+    <variable displayName="IP Address" name="params.peer_address_ip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>PEER</sections>
+      </sections>
+    </variable>
+    <variable displayName="DPD Enable" name="params.protocol_ikev1_dpd_enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKEV1</sections>
+      </sections>
+    </variable>
+    <variable displayName="Crypto Profile" name="params.ikev1_crypto_profile" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKEV1</sections>
+      </sections>
+    </variable>
+    <variable displayName="DPD Enable" name="params.protocol_ikev2_dpd_enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKEV2</sections>
+      </sections>
+    </variable>
+    <variable displayName="Crypto Profile" name="params.ikev2_crypto_profile" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="250" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>IKEV2</sections>
+      </sections>
+    </variable>
+    <variable displayName="Protocol Version" name="params.protocol_version" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="ikev2-preferred" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="ikev2-preferred">ikev2-preferred</values>
+        <values displayValue="ikev1">ikev1</values>
+        <values displayValue="ikev2">ikev2</values>
+      </values>
+    </variable>
+    <variable displayName="Fragmentation" name="params.fragmentation" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="110" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol Common</sections>
+      </sections>
+    </variable>
+    <variable displayName="NAT Traversal" name="params.nat_traversal" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="120" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol Common</sections>
+      </sections>
+    </variable>
+    <variable displayName="Passive Mode" name="params.passive_mode" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="120" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Protocol Common</sections>
+      </sections>
+    </variable>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: [
+    {
+      &quot;authentication&quot;: {
+        &quot;pre_shared_key&quot;: {
+          &quot;key&quot;: &quot;string&quot;
+        }
+      },
+      &quot;id&quot;: &quot;abcd-1234&quot;,
+      &quot;local_id&quot;: {
+        &quot;id&quot;: &quot;string&quot;,
+        &quot;type&quot;: &quot;string&quot;
+      },
+      &quot;name&quot;: &quot;string&quot;,
+      &quot;peer_address&quot;: {
+        &quot;ip&quot;: &quot;1.1.1.2&quot;
+      },
+      &quot;peer_id&quot;: {
+        &quot;id&quot;: &quot;string&quot;,
+        &quot;type&quot;: &quot;ipaddr&quot;
+      },
+      &quot;protocol&quot;: {
+        &quot;ikev1&quot;: {
+          &quot;dpd&quot;: {
+            &quot;enable&quot;: true
+          },
+          &quot;ike_crypto_profile&quot;: &quot;string&quot;
+        },
+        &quot;ikev2&quot;: {
+          &quot;dpd&quot;: {
+            &quot;enable&quot;: true
+          },
+          &quot;ike_crypto_profile&quot;: &quot;string&quot;
+        },
+        &quot;version&quot;: &quot;ikev2-preferred&quot;
+      },
+      &quot;protocol_common&quot;: {
+        &quot;fragmentation&quot;: {
+          &quot;enable&quot;: true
+        },
+        &quot;nat_traversal&quot;: {
+          &quot;enable&quot;: true
+        },
+        &quot;passive_mode&quot;: true
+      }
+    }
+  ],
+  &quot;limit&quot;: 200,
+  &quot;offset&quot;: 0,
+  &quot;total&quot;: 0
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$[&apos;data&apos;].*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;pre_shared_key&gt;.*)$@</regexp>
+          <xpath>$[&apos;authentication&apos;].[&apos;pre_shared_key&apos;].[&apos;key&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
+          <xpath>$[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;local_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;local_id&apos;].[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;local_id_type&gt;.*)$@</regexp>
+          <xpath>$[&apos;local_id&apos;].[&apos;type&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;name&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;peer_address_ip&gt;.*)$@</regexp>
+          <xpath>$[&apos;peer_address&apos;].[&apos;ip&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;peer_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;peer_id&apos;].[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;peer_id_type&gt;.*)$@</regexp>
+          <xpath>$[&apos;peer_id&apos;].[&apos;type&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;protocol_ikev1_dpd_enable&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol&apos;].[&apos;ikev1&apos;].[&apos;dpd&apos;].[&apos;enable&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ikev1_crypto_profile&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol&apos;].[&apos;ikev1&apos;].[&apos;ike_crypto_profile&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;protocol_ikev2_dpd_enable&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol&apos;].[&apos;ikev2&apos;].[&apos;dpd&apos;].[&apos;enable&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ikev2_crypto_profile&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol&apos;].[&apos;ikev2&apos;].[&apos;ike_crypto_profile&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;protocol_version&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol&apos;].[&apos;version&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;fragmentation&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol_common&apos;].[&apos;fragmentation&apos;].[&apos;enable&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;passive_mode&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol_common&apos;].[&apos;passive_mode&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;nat_traversal&gt;.*)$@</regexp>
+          <xpath>$[&apos;protocol_common&apos;].[&apos;nat_traversal&apos;].[&apos;enable&apos;]</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sse/config/v1/ike-gateways?folder=Remote%20Networks</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}
+{
+{/literal}
+  {if isset($params.pre_shared_key)}
+  "authentication": {
+    "pre_shared_key": {
+      "key": "{$params.pre_shared_key}"
+    }
+  },
+  {/if}
+
+  {if isset($params.local_id) && isset($params.local_id_type)}
+  "local_id": {
+    "id": "{$params.local_id}",
+    "type": "{$params.local_id_type}"
+  },
+  {/if}
+
+  {if isset($params.object_id)}
+  "name": "{$params.object_id}",
+  {/if}
+
+  {if isset($params.peer_address_ip)}
+  "peer_address": {
+    "ip": "{$params.peer_address_ip}"
+  },
+  {/if}
+
+  {if isset($params.peer_id) && isset($params.peer_id_type)}
+  "peer_id": {
+    "id": "{$params.peer_id}",
+    "type": "{$params.peer_id_type}"
+  },
+  {/if}
+
+  "protocol": {
+    "ikev1": {
+      "dpd": {
+        "enable": {if $params.protocol_ikev1_dpd_enable == true}true{else}false{/if}
+      },
+      {if isset($params.ikev1_crypto_profile)}
+      "ike_crypto_profile": "{$params.ikev1_crypto_profile}"
+      {/if}
+    },
+    "ikev2": {
+      "dpd": {
+        "enable": {if $params.protocol_ikev2_dpd_enable == true}true{else}false{/if}
+      },
+      {if isset($params.ikev2_crypto_profile)}
+      "ike_crypto_profile": "{$params.ikev2_crypto_profile}"
+      {/if}
+    },
+    {if isset($params.protocol_version)}
+    "version": "{$params.protocol_version}"
+    {/if}
+  },
+
+  "protocol_common": {
+    "fragmentation": {
+      "enable": {if $params.fragmentation == true}true{else}false{/if}
+    },
+    "nat_traversal": {
+      "enable": {if $params.nat_traversal == true}true{else}false{/if}
+    },
+    "passive_mode": {if $params.passive_mode == true}true{else}false{/if}
+  }
+{literal}
+}
+{/literal}
+]]></operation>
+    <rest>POST</rest>
+    <xpath>/sse/config/v1/ike-gateways?folder={$params.folder|escape:&apos;url&apos;}</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}
+{
+{/literal}
+  "name": "{$params.object_id}",
+  {if isset($params.pre_shared_key)}
+  "authentication": {
+    "pre_shared_key": {
+      "key": "{$params.pre_shared_key}"
+    }
+  },
+  {/if}
+
+  {if isset($params.local_id) && isset($params.local_id_type)}
+  "local_id": {
+    "id": "{$params.local_id}",
+    "type": "{$params.local_id_type}"
+  },
+  {/if}
+
+  {if isset($params.peer_address_ip)}
+  "peer_address": {
+    "ip": "{$params.peer_address_ip}"
+  },
+  {/if}
+
+  {if isset($params.peer_id) && isset($params.peer_id_type)}
+  "peer_id": {
+    "id": "{$params.peer_id}",
+    "type": "{$params.peer_id_type}"
+  },
+  {/if}
+
+  "protocol": {
+    "ikev1": {
+      "dpd": {
+        "enable": {if $params.protocol_ikev1_dpd_enable == true}true{else}false{/if}
+      },
+      {if isset($params.ikev1_crypto_profile)}
+      "ike_crypto_profile": "{$params.ikev1_crypto_profile}"
+      {/if}
+    },
+    "ikev2": {
+      "dpd": {
+        "enable": {if $params.protocol_ikev2_dpd_enable == true}true{else}false{/if}
+      },
+      {if isset($params.ikev2_crypto_profile)}
+      "ike_crypto_profile": "{$params.ikev2_crypto_profile}"
+      {/if}
+    },
+    {if isset($params.protocol_version)}
+    "version": "{$params.protocol_version}"
+    {/if}
+  },
+
+  "protocol_common": {
+    "fragmentation": {
+      "enable": {if $params.fragmentation == true}true{else}false{/if}
+    },
+    "nat_traversal": {
+      "enable": {if $params.nat_traversal == true}true{else}false{/if}
+    },
+    "passive_mode": {if $params.passive_mode == true}true{else}false{/if}
+  }
+{literal}
+}
+{/literal}
+]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sse/config/v1/ike-gateways/{$params.id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sse/config/v1/ike-gateways/{$params.id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>IKE_gateway</displayName>
+  <order>0</order>
+</ObjectDefinition>

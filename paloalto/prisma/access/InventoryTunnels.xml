@@ -1,0 +1,123 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Inventory_Tunnels</name>
+    <group>SSE|Palo Alto|Prisma Access</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Source IP" name="params.peer_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="Dans IKE Gateway" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="5" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Pop Name" name="params.pops.0.pop_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="3" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Primary" name="params.pops.0.primary" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="4" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Pop IP" name="params.pops.0.pop_ip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="4" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Location" name="params.pops.0.location" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="5" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: [
+    {
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;ecmp_tunnels&quot;: [],
+      &quot;id&quot;: &quot;a524902f-2e78-4e7c-b2fd-f4838981eee2&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;SASEOPSLABTUNNEL001&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;name&quot;: &quot;SASEOPSLABEDGE001&quot;,
+      &quot;protocol&quot;: {
+        &quot;bgp&quot;: {
+          &quot;do_not_export_routes&quot;: false,
+          &quot;enable&quot;: false,
+          &quot;local_ip_address&quot;: &quot;192.168.255.11&quot;,
+          &quot;originate_default_route&quot;: false,
+          &quot;peer_as&quot;: &quot;&quot;,
+          &quot;peer_ip_address&quot;: &quot;&quot;,
+          &quot;peering_type&quot;: &quot;&quot;,
+          &quot;secret&quot;: &quot;&quot;,
+          &quot;summarize_mobile_user_routes&quot;: false
+        },
+        &quot;bgp_peer&quot;: {
+          &quot;local_ip_address&quot;: &quot;192.168.255.11&quot;,
+          &quot;peer_ip_address&quot;: &quot;&quot;,
+          &quot;secret&quot;: &quot;&quot;
+        }
+      },
+      &quot;region&quot;: &quot;france-south&quot;,
+      &quot;secondary_ipsec_tunnel&quot;: &quot;SASEOPSLABTUNNEL002&quot;,
+      &quot;spn_name&quot;: &quot;europe-northwest-paris-mango&quot;,
+      &quot;subnets&quot;: []
+    }
+  ],
+  &quot;limit&quot;: 200,
+  &quot;offset&quot;: 0,
+  &quot;total&quot;: 1
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <post_template>{assign_object_variable 
+	var=&quot;pops.{0}.pop_name&quot; 
+	value=&quot;{$params.spn_name}&quot;}
+
+	
+{assign_object_variable 
+	var=&quot;pops.{0}.primary&quot; 
+	value=&quot;true&quot;}
+
+
+{assign_object_variable 
+	var=&quot;pops.{0}.location&quot; 
+	value=&quot;{$params.region}&quot;}</post_template>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.data.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;spn_name&gt;.*)$@</regexp>
+          <xpath>$.spn_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;region&gt;.*)$@</regexp>
+          <xpath>$.region</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks </xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>Inventory_Tunnels</displayName>
+  <order>0</order>
+</ObjectDefinition>
