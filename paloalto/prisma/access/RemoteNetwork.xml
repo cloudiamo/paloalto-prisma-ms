@@ -1,0 +1,469 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Remote Network</name>
+    <group>SASE|sse|PaloAlto|Prisma Access</group>
+    <importonce>false</importonce>
+    <importrank>1</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
+  </information>
+  <variables frozen="0">
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="Index" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" validationRegex="^[a-zA-Z][0-9a-zA-Z._-]{0,62}$" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ID" name="params.id" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Folder" name="params.folder" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="31" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="Remote Networks" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="License Type" name="params.license_type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Region" name="params.region" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>pops</class>
+      </classes>
+    </variable>
+    <variable displayName="SPN Name" name="params.spn_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="300" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="IPSec Tunnel" name="params.ipsec_tunnel" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>ipsec_tunnels</class>
+      </classes>
+    </variable>
+    <variable displayName="Secondary IPSec Tunnel" name="params.secondary_ipsec_tunnel" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>ipsec_tunnels</class>
+      </classes>
+    </variable>
+    <variable displayName="service ip address" name="params.service_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="fqdn" name="params.fqdn" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="400" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Subnet" name="params.subnets.0.subnet" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="120" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <sections>
+        <sections>Subnets</sections>
+      </sections>
+    </variable>
+    <variable displayName="loopback_ip_address" name="params.loopback_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: &quot;5c080856-2a21-4e09-82db-93f50bba496d&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Linux_992_7d742ee6&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Linux_992_7d742ee6&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;eu-west-1&quot;,
+      &quot;spn_name&quot;: &quot;ireland-larch&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.8&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Linux_992_7d742ee6&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.8&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Linux_992_7d742ee6&quot;,
+        &quot;service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;recommended_fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
+    },
+    {
+      &quot;id&quot;: &quot;f5914b29-912e-4926-97c7-d112f6ef9a7d&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Linux_997_f343099c&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Linux_997_f343099c&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;france-south&quot;,
+      &quot;spn_name&quot;: &quot;europe-northwest-paris-mango&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.11&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Linux_997_f343099c&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.11&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Linux_997_f343099c&quot;,
+        &quot;service_ip_address&quot;: &quot;144.125.52.123&quot;,
+        &quot;fqdn&quot;: &quot;europe-northwest-paris-mango.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;144.125.52.123&quot;,
+        &quot;recommended_fqdn&quot;: &quot;europe-northwest-paris-mango.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
+    },
+    {
+      &quot;id&quot;: &quot;715d6869-b424-4673-9217-2dc0d5c528ac&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Cisco_2901_f4e437c7&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Cisco_2901_f4e437c7&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;eu-west-1&quot;,
+      &quot;spn_name&quot;: &quot;ireland-larch&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.8&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Cisco_2901_f4e437c7&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.8&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Cisco_2901_f4e437c7&quot;,
+        &quot;service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;recommended_fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
+    }
+  ],
+  &quot;offset&quot;: 0,
+  &quot;total&quot;: 3,
+  &quot;limit&quot;: 200
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$[&apos;data&apos;].*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
+          <xpath>$[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;name&apos;]</xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ecmp_load_balancing&gt;.*)$@</regexp>
+          <xpath>$[&apos;ecmp_load_balancing&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ipsec_tunnel&gt;.*)$@</regexp>
+          <xpath>$[&apos;ipsec_tunnel&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;license_type&gt;.*)$@</regexp>
+          <xpath>$[&apos;license_type&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;region&gt;.*)$@</regexp>
+          <xpath>$[&apos;region&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;secondary_ipsec_tunnel&gt;.*)$@</regexp>
+          <xpath>$[&apos;secondary_ipsec_tunnel&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;spn_name&gt;.*)$@</regexp>
+          <xpath>$[&apos;spn_name&apos;]</xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="subnets">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;subnet&gt;.*)$@</regexp>
+                <xpath>$.entry</xpath>
+              </line>
+            </lines>
+            <xpath>$[&apos;subnets&apos;].*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;service_ip_address&gt;.*)$@</regexp>
+          <xpath>$.details.service_ip_address</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;fqdn&gt;.*)$@</regexp>
+          <xpath>$.details.fqdn</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;loopback_ip_address&gt;.*)$@</regexp>
+          <xpath>$.details.loopback_ip_address</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{
+{/literal}
+  "name": "{$params.object_id}",
+  {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
+  {if $params.license_type}"license_type": "{$params.license_type}",{/if}
+  {if $params.ecmp_load_balancing}"ecmp_load_balancing": "{$params.ecmp_load_balancing}"{/if}
+
+  {if $params.ecmp_load_balancing == enable}
+  ,"ecmp_tunnels": [
+    {foreach $params.ecmp_tunnels as $tunnel}
+    {literal}{
+    {/literal}
+      {if $tunnel.do_not_export_routes !== null}"do_not_export_routes": {if $tunnel.do_not_export_routes}true{else}false{/if},{/if}
+      {if $tunnel.ipsec_tunnel}"ipsec_tunnel": "{$tunnel.ipsec_tunnel}",{/if}
+      {if $tunnel.local_ip_address}"local_ip_address": "{$tunnel.local_ip_address}",{/if}
+      {if $tunnel.name}"name": "{$tunnel.name}",{/if}
+      {if $tunnel.originate_default_route !== null}"originate_default_route": {if $tunnel.originate_default_route}true{else}false{/if},{/if}
+      {if $tunnel.peer_as}"peer_as": "{$tunnel.peer_as}",{/if}
+      {if $tunnel.peer_ip_address}"peer_ip_address": "{$tunnel.peer_ip_address}",{/if}
+      {if $tunnel.peering_type}"peering_type": "{$tunnel.peering_type}",{/if}
+      {if $tunnel.secret}"secret": "{$tunnel.secret}",{/if}
+      {if $tunnel.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $tunnel.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    {literal}}{/literal}{if !$tunnel@last},{/if}
+    {/foreach}
+  ]{/if}
+
+  {* Check if any protocol-related values are set *}
+  {assign var=has_bgp value=($params.protocol_bgp.0.enable || $params.protocol_bgp.0.local_ip_address || $params.protocol_bgp.0.peer_ip_address || $params.protocol_bgp.0.peer_as || $params.protocol_bgp.0.secret || $params.protocol_bgp.0.peering_type || $params.protocol_bgp.0.originate_default_route !== null || $params.protocol_bgp.0.summarize_mobile_user_routes !== null || $params.protocol_bgp.0.do_not_export_routes !== null)}
+  {assign var=has_bgp_peer value=($params.protocol_bgp_peer.0.local_ip_address || $params.protocol_bgp_peer.0.peer_ip_address || $params.protocol_bgp_peer.0.secret)}
+  {if $has_bgp || $has_bgp_peer}
+  ,"protocol": {
+    {if $has_bgp}
+    "bgp": {
+      "enable": {if $params.protocol_bgp.0.enable == true}true{else}false{/if},
+      {if $params.protocol_bgp.0.do_not_export_routes !== null}"do_not_export_routes": {if $params.protocol_bgp.0.do_not_export_routes}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp.0.originate_default_route !== null}"originate_default_route": {if $params.protocol_bgp.0.originate_default_route}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.peer_as}"peer_as": "{$params.protocol_bgp.0.peer_as}",{/if}
+      {if $params.protocol_bgp.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp.0.peering_type}"peering_type": "{$params.protocol_bgp.0.peering_type}",{/if}
+      {if $params.protocol_bgp.0.secret}"secret": "{$params.protocol_bgp.0.secret}",{/if}
+      {if $params.protocol_bgp.0.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $params.protocol_bgp.0.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    }{if $has_bgp_peer},{/if}
+    {/if}
+
+    {if $has_bgp_peer}
+    "bgp_peer": {
+      {if $params.protocol_bgp_peer.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp_peer.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp_peer.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.secret}"secret": "{$params.protocol_bgp_peer.0.secret}"{/if}
+    }
+    {/if}
+  }
+  {/if}
+
+  {* Fragmentation block only if explicitly true/false *}
+  {if $params.protocol_fragmentation !== null}
+  ,"fragmentation": {
+    "enable": {if $params.protocol_fragmentation}true{else}false{/if}
+  },
+  {/if}
+
+  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
+  {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
+
+  {* Only include subnets if not empty *}
+  {if $params.subnets|@count > 0}
+  ,"subnets": [
+    {foreach $params.subnets as $subnet}
+      "{$subnet.subnet}"{if !$subnet@last},{/if}
+    {/foreach}
+  ]
+  {/if}
+{literal}}{/literal}
+]]></operation>
+    <rest>POST</rest>
+    <xpath>/sse/config/v1/remote-networks?folder=Remote%20Networks</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{
+{/literal}
+  "name": "{$params.object_id}",
+  {if $params.ipsec_tunnel}"ipsec_tunnel": "{$params.ipsec_tunnel}",{/if}
+  {if $params.license_type}"license_type": "{$params.license_type}",{/if}
+  {if $params.ecmp_load_balancing}"ecmp_load_balancing": "{$params.ecmp_load_balancing}"{/if}
+
+  {if $params.ecmp_load_balancing == enable}
+  ,"ecmp_tunnels": [
+    {foreach $params.ecmp_tunnels as $tunnel}
+    {literal}{
+    {/literal}
+      {if $tunnel.do_not_export_routes !== null}"do_not_export_routes": {if $tunnel.do_not_export_routes}true{else}false{/if},{/if}
+      {if $tunnel.ipsec_tunnel}"ipsec_tunnel": "{$tunnel.ipsec_tunnel}",{/if}
+      {if $tunnel.local_ip_address}"local_ip_address": "{$tunnel.local_ip_address}",{/if}
+      {if $tunnel.name}"name": "{$tunnel.name}",{/if}
+      {if $tunnel.originate_default_route !== null}"originate_default_route": {if $tunnel.originate_default_route}true{else}false{/if},{/if}
+      {if $tunnel.peer_as}"peer_as": "{$tunnel.peer_as}",{/if}
+      {if $tunnel.peer_ip_address}"peer_ip_address": "{$tunnel.peer_ip_address}",{/if}
+      {if $tunnel.peering_type}"peering_type": "{$tunnel.peering_type}",{/if}
+      {if $tunnel.secret}"secret": "{$tunnel.secret}",{/if}
+      {if $tunnel.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $tunnel.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    {literal}}{/literal}{if !$tunnel@last},{/if}
+    {/foreach}
+  ]{/if}
+
+  {* Check if any protocol-related values are set *}
+  {assign var=has_bgp value=($params.protocol_bgp.0.enable || $params.protocol_bgp.0.local_ip_address || $params.protocol_bgp.0.peer_ip_address || $params.protocol_bgp.0.peer_as || $params.protocol_bgp.0.secret || $params.protocol_bgp.0.peering_type || $params.protocol_bgp.0.originate_default_route !== null || $params.protocol_bgp.0.summarize_mobile_user_routes !== null || $params.protocol_bgp.0.do_not_export_routes !== null)}
+  {assign var=has_bgp_peer value=($params.protocol_bgp_peer.0.local_ip_address || $params.protocol_bgp_peer.0.peer_ip_address || $params.protocol_bgp_peer.0.secret)}
+  {if $has_bgp || $has_bgp_peer}
+  ,"protocol": {
+    {if $has_bgp}
+    "bgp": {
+      "enable": {if $params.protocol_bgp.0.enable == true}true{else}false{/if},
+      {if $params.protocol_bgp.0.do_not_export_routes !== null}"do_not_export_routes": {if $params.protocol_bgp.0.do_not_export_routes}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp.0.originate_default_route !== null}"originate_default_route": {if $params.protocol_bgp.0.originate_default_route}true{else}false{/if},{/if}
+      {if $params.protocol_bgp.0.peer_as}"peer_as": "{$params.protocol_bgp.0.peer_as}",{/if}
+      {if $params.protocol_bgp.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp.0.peering_type}"peering_type": "{$params.protocol_bgp.0.peering_type}",{/if}
+      {if $params.protocol_bgp.0.secret}"secret": "{$params.protocol_bgp.0.secret}",{/if}
+      {if $params.protocol_bgp.0.summarize_mobile_user_routes !== null}"summarize_mobile_user_routes": {if $params.protocol_bgp.0.summarize_mobile_user_routes}true{else}false{/if}{/if}
+    }{if $has_bgp_peer},{/if}
+    {/if}
+
+    {if $has_bgp_peer}
+    "bgp_peer": {
+      {if $params.protocol_bgp_peer.0.local_ip_address}"local_ip_address": "{$params.protocol_bgp_peer.0.local_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.peer_ip_address}"peer_ip_address": "{$params.protocol_bgp_peer.0.peer_ip_address}",{/if}
+      {if $params.protocol_bgp_peer.0.secret}"secret": "{$params.protocol_bgp_peer.0.secret}"{/if}
+    }
+    {/if}
+  }
+  {/if}
+
+  {* Fragmentation block only if explicitly true/false *}
+  {if $params.protocol_fragmentation !== null}
+  ,"fragmentation": {
+    "enable": {if $params.protocol_fragmentation}true{else}false{/if}
+  },
+  {/if}
+
+  {if $params.region},"region": "{$params.region}"{/if}
+  {if $params.secondary_ipsec_tunnel},"secondary_ipsec_tunnel": "{$params.secondary_ipsec_tunnel}"{/if}
+  {if $params.spn_name},"spn_name": "{$params.spn_name}"{/if}
+
+  {* Only include subnets if not empty *}
+  {if $params.subnets|@count > 0}
+  ,"subnets": [
+    {foreach $params.subnets as $subnet}
+      "{$subnet.subnet}"{if !$subnet@last},{/if}
+    {/foreach}
+  ]
+  {/if}
+{literal}}{/literal}
+]]></operation>
+    <rest>PUT</rest>
+    <xpath>/sse/config/v1/remote-networks/{$params.id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/sse/config/v1/remote-networks/{$params.id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>Remote Network</displayName>
+  <order>0</order>
+</ObjectDefinition>
