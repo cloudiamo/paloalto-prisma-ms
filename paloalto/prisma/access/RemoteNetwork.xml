@@ -181,59 +181,108 @@
         <sections>Protocol BGP Peer</sections>
       </sections>
     </variable>
+    <variable displayName="loopback_ip_address" name="params.loopback_ip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
   </variables>
-  <example>
+<example>
     <content>{
   &quot;data&quot;: [
     {
-      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
-      &quot;ecmp_tunnels&quot;: [
-        {
-          &quot;do_not_export_routes&quot;: true,
-          &quot;ipsec_tunnel&quot;: &quot;string&quot;,
-          &quot;local_ip_address&quot;: &quot;1.1.1.1&quot;,
-          &quot;name&quot;: &quot;string&quot;,
-          &quot;originate_default_route&quot;: true,
-          &quot;peer_as&quot;: &quot;string&quot;,
-          &quot;peer_ip_address&quot;: &quot;2.2.2.2&quot;,
-          &quot;peering_type&quot;: &quot;exchange-v4-over-v4&quot;,
-          &quot;secret&quot;: &quot;lpsldpsoskdoskqsjiqj&quot;,
-          &quot;summarize_mobile_user_routes&quot;: true
-        }
-      ],
-      &quot;id&quot;: &quot;abcd-1234&quot;,
-      &quot;ipsec_tunnel&quot;: &quot;string&quot;,
+      &quot;id&quot;: &quot;5c080856-2a21-4e09-82db-93f50bba496d&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Linux_992_7d742ee6&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Linux_992_7d742ee6&quot;,
       &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
-      &quot;name&quot;: &quot;string&quot;,
-      &quot;protocol&quot;: {
-        &quot;bgp&quot;: {
-          &quot;do_not_export_routes&quot;: true,
-          &quot;enable&quot;: true,
-          &quot;local_ip_address&quot;: &quot;3.3.3.3&quot;,
-          &quot;originate_default_route&quot;: true,
-          &quot;peer_as&quot;: &quot;string&quot;,
-          &quot;peer_ip_address&quot;: &quot;4.4.4.4&quot;,
-          &quot;peering_type&quot;: &quot;exchange-v4-over-v4&quot;,
-          &quot;secret&quot;: &quot;mdoifjmsdiohjflsigdkshgdkqhgfdkqgfsd&quot;,
-          &quot;summarize_mobile_user_routes&quot;: true
-        },
-        &quot;bgp_peer&quot;: {
-          &quot;local_ip_address&quot;: &quot;7.7.7.7&quot;,
-          &quot;peer_ip_address&quot;: &quot;8.8.8.8&quot;,
-          &quot;secret&quot;: &quot;lkdsokdlkdlsoklkhj&quot;
-        }
-      },
-      &quot;region&quot;: &quot;string&quot;,
-      &quot;secondary_ipsec_tunnel&quot;: &quot;string&quot;,
-      &quot;spn_name&quot;: &quot;string&quot;,
-      &quot;subnets&quot;: [
-        &quot;string 1&quot;, &quot;string 2&quot;
-      ]
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;eu-west-1&quot;,
+      &quot;spn_name&quot;: &quot;ireland-larch&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.8&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Linux_992_7d742ee6&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.8&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Linux_992_7d742ee6&quot;,
+        &quot;service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;recommended_fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
+    },
+    {
+      &quot;id&quot;: &quot;f5914b29-912e-4926-97c7-d112f6ef9a7d&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Linux_997_f343099c&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Linux_997_f343099c&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;france-south&quot;,
+      &quot;spn_name&quot;: &quot;europe-northwest-paris-mango&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.11&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Linux_997_f343099c&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.11&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Linux_997_f343099c&quot;,
+        &quot;service_ip_address&quot;: &quot;144.125.52.123&quot;,
+        &quot;fqdn&quot;: &quot;europe-northwest-paris-mango.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;144.125.52.123&quot;,
+        &quot;recommended_fqdn&quot;: &quot;europe-northwest-paris-mango.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
+    },
+    {
+      &quot;id&quot;: &quot;715d6869-b424-4673-9217-2dc0d5c528ac&quot;,
+      &quot;name&quot;: &quot;OpsLab_remote_network_Cisco_2901_f4e437c7&quot;,
+      &quot;folder&quot;: &quot;Remote Networks&quot;,
+      &quot;ipsec_tunnel&quot;: &quot;ipsec_tunnel_Cisco_2901_f4e437c7&quot;,
+      &quot;license_type&quot;: &quot;FWAAS-AGGREGATE&quot;,
+      &quot;ecmp_load_balancing&quot;: &quot;disable&quot;,
+      &quot;region&quot;: &quot;eu-west-1&quot;,
+      &quot;spn_name&quot;: &quot;ireland-larch&quot;,
+      &quot;details&quot;: {
+        &quot;branch_as_and_router&quot;: [
+          
+        ],
+        &quot;branch_as_and_router_ecmp&quot;: null,
+        &quot;ebgp_router&quot;: [
+          &quot;192.168.255.8&quot;
+        ],
+        &quot;ebgp_router_ecmp&quot;: null,
+        &quot;inbound_access_apps&quot;: null,
+        &quot;local_ip_address&quot;: &quot;ipsec_tunnel_Cisco_2901_f4e437c7&quot;,
+        &quot;loopback_ip_address&quot;: &quot;192.168.255.8&quot;,
+        &quot;static_subnet&quot;: [
+          null
+        ],
+        &quot;name&quot;: &quot;OpsLab_remote_network_Cisco_2901_f4e437c7&quot;,
+        &quot;service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;,
+        &quot;recommended_service_ip_address&quot;: &quot;165.85.69.215&quot;,
+        &quot;recommended_fqdn&quot;: &quot;ireland-larch.rn.o5oscjoyo2.gpcloudservice.com&quot;
+      }
     }
   ],
-  &quot;limit&quot;: 200,
   &quot;offset&quot;: 0,
-  &quot;total&quot;: 0
+  &quot;total&quot;: 3,
+  &quot;limit&quot;: 200
 }</content>
   </example>
   <command name="IMPORT">
@@ -467,6 +516,10 @@
         <line>
           <regexp>@^(?&lt;fqdn&gt;.*)$@</regexp>
           <xpath>$.details.fqdn</xpath>
+        </line>
+         <line>
+          <regexp>@^(?&lt;loopback_ip_address&gt;.*)$@</regexp>
+          <xpath>$.details.loopback_ip_address</xpath>
         </line>
       </lines>
     </parser>
