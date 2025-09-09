@@ -31,7 +31,7 @@
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>ipsec_tunnels.xml</value>
+            <value>IPSecCryptoProfiles.xml</value>
         </entry>
     </map>
 </metadata>

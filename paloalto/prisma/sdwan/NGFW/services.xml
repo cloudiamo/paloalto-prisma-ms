@@ -1,0 +1,137 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>xml</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>services</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="Name" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="TCP Port" name="params.tcp_port" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="TCP Override" name="params.tcp_override" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="no" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="no">no</values>
+        <values displayValue="yes">yes</values>
+      </values>
+    </variable>
+  </variables>
+  <example>
+    <content>&lt;response status=&quot;success&quot;&gt;&lt;result&gt;&lt;service&gt;
+  &lt;entry name=&quot;myservice-http&quot;&gt;
+    &lt;protocol&gt;
+      &lt;tcp&gt;
+        &lt;port&gt;80&lt;/port&gt;
+        &lt;override&gt;
+          &lt;no/&gt;
+        &lt;/override&gt;
+      &lt;/tcp&gt;
+    &lt;/protocol&gt;
+    &lt;description&gt;test&lt;/description&gt;
+  &lt;/entry&gt;
+  &lt;entry name=&quot;myservice-https&quot;&gt;
+    &lt;protocol&gt;
+      &lt;tcp&gt;
+        &lt;port&gt;443&lt;/port&gt;
+        &lt;override&gt;
+          &lt;yes/&gt;
+        &lt;/override&gt;
+      &lt;/tcp&gt;
+    &lt;/protocol&gt;
+  &lt;/entry&gt;
+&lt;/service&gt;&lt;/result&gt;&lt;/response&gt;
+
+</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[type=config&cmd=get]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>//result/service/entry</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@&lt;entry name=&quot;(?&lt;object_id&gt;.*)&quot;&gt;@</regexp>
+          <xpath>/entry</xpath>
+        </line>
+        <line>
+          <regexp>@&lt;port&gt;(?&lt;tcp_port&gt;.*)&lt;/port&gt;@</regexp>
+          <xpath>/entry/protocol/tcp/port</xpath>
+        </line>
+        <line>
+          <regexp>@&lt;(?&lt;tcp_override&gt;.*)/&gt;@</regexp>
+          <xpath>/entry/protocol/tcp/override/no</xpath>
+        </line>
+        <line>
+          <regexp>@&lt;(?&lt;tcp_override&gt;.*)/&gt;@</regexp>
+          <xpath>/entry/protocol/tcp/override/yes</xpath>
+        </line>
+        <line>
+          <regexp>@&lt;description&gt;(?&lt;description&gt;.*)&lt;/description&gt;@</regexp>
+          <xpath>/entry/description</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/config/devices/entry[@name=&apos;localhost.localdomain&apos;]/vsys/entry[@name=&apos;vsys1&apos;]/service</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[ <entry name="{$params.object_id}">
+    <protocol>
+      <tcp>
+        <port>{$params.tcp_port}</port>
+        <override>
+          <{$params.tcp_override}/>
+        </override>
+      </tcp>
+    </protocol>
+    <description>{$params.description}</description>
+  </entry>]]></operation>
+    <rest>type=config&amp;action=set</rest>
+    <xpath>/config/devices/entry[@name=&apos;localhost.localdomain&apos;]/vsys/entry[@name=&apos;vsys1&apos;]/service</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[ <entry name="{$params.object_id}">
+    <protocol>
+      <tcp>
+        <port>{$params.tcp_port}</port>
+        <override>
+          <{$params.tcp_override}/>
+        </override>
+      </tcp>
+    </protocol>
+    <description>{$params.description}</description>
+  </entry>]]></operation>
+    <rest>type=config&amp;action=edit</rest>
+    <xpath>/config/devices/entry[@name=&apos;localhost.localdomain&apos;]/vsys/entry[@name=&apos;vsys1&apos;]/service/entry[@name=&quot;{$params.object_id}&quot;]</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>type=config&amp;action=delete</rest>
+    <xpath>/config/devices/entry[@name=&apos;localhost.localdomain&apos;]/vsys/entry[@name=&apos;vsys1&apos;]/service/entry[@name=&quot;{$params.object_id}&quot;]</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>services</displayName>
+  <order>0</order>
+</ObjectDefinition>

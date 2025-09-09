@@ -10,11 +10,11 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>TAG</key>
+            <key>COMMENT</key>
             <value>string</value>
         </entry>
         <entry>
-            <key>COMMENT</key>
+            <key>TAG</key>
             <value>string</value>
         </entry>
         <entry>
@@ -31,7 +31,7 @@
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>ike_gateway.xml</value>
+            <value>Prisma_Push_Config.xml</value>
         </entry>
     </map>
 </metadata>

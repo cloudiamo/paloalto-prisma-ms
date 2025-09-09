@@ -10,10 +10,6 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>COMMENT</key>
-            <value>string</value>
-        </entry>
-        <entry>
             <key>MANUFACTURER</key>
             <value>28</value>
         </entry>
@@ -23,6 +19,10 @@
         </entry>
         <entry>
             <key>TAG</key>
+            <value>string</value>
+        </entry>
+        <entry>
+            <key>COMMENT</key>
             <value>string</value>
         </entry>
         <entry>

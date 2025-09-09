@@ -1,0 +1,86 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>xml</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>PanOSInterface</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="lldp_enabled" name="params.lldp_enabled" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>&lt;response status=&quot;success&quot;&gt;
+	&lt;result&gt;
+		&lt;ethernet&gt;
+  &lt;entry name=&quot;ethernet1/1&quot;&gt;
+    &lt;layer2&gt;
+      &lt;lldp&gt;
+        &lt;enable&gt;no&lt;/enable&gt;
+      &lt;/lldp&gt;
+    &lt;/layer2&gt;
+  &lt;/entry&gt;
+  &lt;entry name=&quot;ethernet1/2&quot;&gt;
+    &lt;layer2&gt;
+      &lt;lldp&gt;
+        &lt;enable&gt;yes&lt;/enable&gt;
+      &lt;/lldp&gt;
+    &lt;/layer2&gt;
+  &lt;/entry&gt;
+&lt;/ethernet&gt;
+&lt;/result&gt;
+&lt;/response&gt;
+</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[type=config&action=show]]></operation>
+    <post_template>{if $params.lldp_enabled == &quot;no&quot;}
+{assign_object_variable var=&quot;lldp_enabled&quot; value=False}
+{/if}</post_template>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>//ethernet/entry</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@name=&quot;(?&lt;object_id&gt;.*)&quot;@</regexp>
+          <xpath>//entry/@name</xpath>
+        </line>
+        <line>
+          <regexp>@&lt;enable&gt;(?&lt;lldp_enabled&gt;.*)&lt;/enable&gt;@</regexp>
+          <xpath>//layer2/lldp</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/config/devices/entry[@name=&apos;localhost.localdomain&apos;]/network/interface/ethernet</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>PanOSInterface</displayName>
+  <order>0</order>
+</ObjectDefinition>

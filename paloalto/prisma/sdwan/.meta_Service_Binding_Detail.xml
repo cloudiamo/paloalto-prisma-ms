@@ -10,19 +10,11 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>MANUFACTURER</key>
-            <value>28</value>
-        </entry>
-        <entry>
-            <key>FILE_TYPE</key>
-            <value>text</value>
-        </entry>
-        <entry>
-            <key>TAG</key>
+            <key>COMMENT</key>
             <value>string</value>
         </entry>
         <entry>
-            <key>COMMENT</key>
+            <key>TAG</key>
             <value>string</value>
         </entry>
         <entry>
@@ -30,8 +22,16 @@
             <value>12052025</value>
         </entry>
         <entry>
+            <key>FILE_TYPE</key>
+            <value>text</value>
+        </entry>
+        <entry>
+            <key>MANUFACTURER</key>
+            <value>28</value>
+        </entry>
+        <entry>
             <key>DISPLAYNAME</key>
-            <value>Service_Group.xml</value>
+            <value>Service_Binding_Detail.xml</value>
         </entry>
     </map>
 </metadata>
