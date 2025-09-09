@@ -3,7 +3,7 @@
     <icon>none</icon>
     <description></description>
     <displayField>name</displayField>
-    <order>0</order>
+    <order>10</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
@@ -1112,7 +1112,7 @@
         </line>
       </lines>
     </parser>
-    <xpath>{foreach $Elements as $el}/sdwan/v4.21/api/sites/{$el.site_id}/elements/{$el.object_id}/interfaces##{/foreach}</xpath>
+    <xpath>{foreach $Elements as $el}{if $el.serial_number == $device_serial_number}/sdwan/v4.21/api/sites/{$el.site_id}/elements/{$el.object_id}/interfaces{/if}{/foreach}</xpath>
   </command>
   <command name="CREATE"/>
   <command name="READ"/>
@@ -1121,5 +1121,5 @@
   <command name="DELETE"/>
   <command name="LIST"/>
   <displayName>Interfaces</displayName>
-  <order>0</order>
+  <order>10</order>
 </ObjectDefinition>

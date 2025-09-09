@@ -15,7 +15,7 @@
     <maxInstances>0</maxInstances>
     <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
-    <name>Remote_Network</name>
+    <name>RemoteNetwork</name>
     <group>SASE|sse|PaloAlto|Prisma Access</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
@@ -639,6 +639,6 @@
     <xpath>/sse/config/v1/remote-networks/{$params.id}</xpath>
   </command>
   <command name="LIST"/>
-  <displayName>Remote_Network</displayName>
+  <displayName>Remote Network</displayName>
   <order>0</order>
 </ObjectDefinition>

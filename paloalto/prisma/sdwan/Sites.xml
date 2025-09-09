@@ -3,7 +3,7 @@
     <icon>none</icon>
     <description></description>
     <displayField>object_id</displayField>
-    <order>0</order>
+    <order>1</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
@@ -178,5 +178,5 @@
   <command name="DELETE"/>
   <command name="LIST"/>
   <displayName>Sites</displayName>
-  <order>0</order>
+  <order>1</order>
 </ObjectDefinition>
