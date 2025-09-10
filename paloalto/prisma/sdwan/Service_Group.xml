@@ -3,7 +3,7 @@
     <icon>none</icon>
     <description></description>
     <displayField>name</displayField>
-    <order>0</order>
+    <order>1</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
@@ -106,5 +106,5 @@
   </command>
   <command name="LIST"/>
   <displayName>Service Group</displayName>
-  <order>0</order>
+  <order>1</order>
 </ObjectDefinition>

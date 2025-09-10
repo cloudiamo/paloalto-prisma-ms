@@ -30,8 +30,122 @@
     <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="site_id" name="params.site_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="tenant_id" name="params.tenant_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  <variable displayName="Serial Number" name="params.serial_number" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
   </variables>
-  <example/>
+  <example>
+    <content>{
+    &quot;_etag&quot;: 0,
+    &quot;_content_length&quot;: &quot;2914&quot;,
+    &quot;_schema&quot;: 0,
+    &quot;_created_on_utc&quot;: 0,
+    &quot;_updated_on_utc&quot;: 0,
+    &quot;_status_code&quot;: &quot;200&quot;,
+    &quot;_request_id&quot;: &quot;1756805280475009799991324568522518996895&quot;,
+    &quot;count&quot;: 2,
+    &quot;items&quot;: [
+        {
+            &quot;id&quot;: &quot;1746441542778017745&quot;,
+            &quot;_etag&quot;: 3891,
+            &quot;_schema&quot;: 0,
+            &quot;_created_on_utc&quot;: 17464415427780177,
+            &quot;_updated_on_utc&quot;: 17568048380260097,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;tenant_id&quot;: &quot;1844024960&quot;,
+            &quot;site_id&quot;: &quot;1753717944348018445&quot;,
+            &quot;software_version&quot;: &quot;6.3.5-b4&quot;,
+            &quot;hw_id&quot;: &quot;4232a4ec-62b7-703c-f0bf-a984b36b97b3&quot;,
+            &quot;serial_number&quot;: &quot;4232a4ec-62b7-703c-f0bf-a984b36b97b3&quot;,
+            &quot;model_name&quot;: &quot;ion 3102v&quot;,
+            &quot;name&quot;: &quot;DEM-UBI-OPSLAB-Prisma-SDWAN-Ion-3102v-1&quot;,
+            &quot;description&quot;: null,
+            &quot;role&quot;: &quot;SPOKE&quot;,
+            &quot;state&quot;: &quot;bound&quot;,
+            &quot;allowed_roles&quot;: [
+                &quot;HUB&quot;,
+                &quot;SPOKE&quot;
+            ],
+            &quot;cluster_id&quot;: null,
+            &quot;l3_direct_private_wan_forwarding&quot;: false,
+            &quot;l3_lan_forwarding&quot;: false,
+            &quot;connected&quot;: false,
+            &quot;admin_action&quot;: null,
+            &quot;deployment_op&quot;: null,
+            &quot;network_policysetstack_id&quot;: null,
+            &quot;priority_policysetstack_id&quot;: null,
+            &quot;tags&quot;: null,
+            &quot;nat_policysetstack_id&quot;: null,
+            &quot;vpn_to_vpn_forwarding&quot;: false,
+            &quot;admin_renew_state&quot;: null,
+            &quot;spoke_ha_config&quot;: null,
+            &quot;admin_suspend_state&quot;: &quot;active_suspend_init&quot;,
+            &quot;fips_mode&quot;: &quot;non_fips&quot;,
+            &quot;fips_mode_change_start_time&quot;: 0,
+            &quot;main_power_usage_threshold&quot;: 0,
+            &quot;device_profile_id&quot;: null,
+            &quot;switch_config&quot;: null,
+            &quot;override_indicator&quot;: null,
+            &quot;led_config&quot;: null,
+            &quot;device_change_mode_state&quot;: &quot;element_change_mode_init&quot;,
+            &quot;device_mode&quot;: &quot;none&quot;,
+            &quot;device_change_mode_start_time&quot;: 0,
+            &quot;hub_cluster_config&quot;: null
+        },
+        {
+            &quot;id&quot;: &quot;1756476632979012245&quot;,
+            &quot;_etag&quot;: 49,
+            &quot;_schema&quot;: 0,
+            &quot;_created_on_utc&quot;: 17564766329790122,
+            &quot;_updated_on_utc&quot;: 17568001693380198,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;tenant_id&quot;: &quot;1844024960&quot;,
+            &quot;site_id&quot;: &quot;1756797522361006445&quot;,
+            &quot;software_version&quot;: &quot;6.3.5-b4&quot;,
+            &quot;hw_id&quot;: &quot;4232ae2f-ee6b-c192-7154-81d5c4da3783&quot;,
+            &quot;serial_number&quot;: &quot;4232ae2f-ee6b-c192-7154-81d5c4da3783&quot;,
+            &quot;model_name&quot;: &quot;ion 3102v&quot;,
+            &quot;name&quot;: &quot;DEM-UBI-OPSLAB-Prisma-SDWAN-Ion-3102v-2&quot;,
+            &quot;description&quot;: null,
+            &quot;role&quot;: &quot;SPOKE&quot;,
+            &quot;state&quot;: &quot;bound&quot;,
+            &quot;allowed_roles&quot;: [
+                &quot;HUB&quot;,
+                &quot;SPOKE&quot;
+            ],
+            &quot;cluster_id&quot;: null,
+            &quot;l3_direct_private_wan_forwarding&quot;: false,
+            &quot;l3_lan_forwarding&quot;: false,
+            &quot;connected&quot;: true,
+            &quot;admin_action&quot;: null,
+            &quot;deployment_op&quot;: null,
+            &quot;network_policysetstack_id&quot;: null,
+            &quot;priority_policysetstack_id&quot;: null,
+            &quot;tags&quot;: null,
+            &quot;nat_policysetstack_id&quot;: null,
+            &quot;vpn_to_vpn_forwarding&quot;: false,
+            &quot;admin_renew_state&quot;: null,
+            &quot;spoke_ha_config&quot;: null,
+            &quot;admin_suspend_state&quot;: &quot;active_suspend_init&quot;,
+            &quot;fips_mode&quot;: &quot;non_fips&quot;,
+            &quot;fips_mode_change_start_time&quot;: 0,
+            &quot;main_power_usage_threshold&quot;: 0,
+            &quot;device_profile_id&quot;: null,
+            &quot;switch_config&quot;: null,
+            &quot;override_indicator&quot;: null,
+            &quot;led_config&quot;: null,
+            &quot;device_change_mode_state&quot;: &quot;element_change_mode_init&quot;,
+            &quot;device_mode&quot;: &quot;none&quot;,
+            &quot;device_change_mode_start_time&quot;: 0,
+            &quot;hub_cluster_config&quot;: null
+        }
+    ]
+}</content>
+  </example>
   <command name="IMPORT">
     <operation><![CDATA[GET]]></operation>
     <parser>
@@ -55,6 +169,10 @@
         <line>
           <regexp>@^(?&lt;tenant_id&gt;.*)$@</regexp>
           <xpath>$.tenant_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;serial_number&gt;.*)$@</regexp>
+          <xpath>$.serial_number</xpath>
         </line>
       </lines>
     </parser>

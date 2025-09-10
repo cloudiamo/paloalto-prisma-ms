@@ -3,7 +3,7 @@
     <icon>none</icon>
     <description></description>
     <displayField>name</displayField>
-    <order>0</order>
+    <order>1</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
@@ -32,70 +32,240 @@
   </variables>
   <example>
     <content>{
-  &quot;count&quot;: 0,
-  &quot;id&quot;: &quot;string&quot;,
-  &quot;items&quot;: [
-    {
-      &quot;clone_from&quot;: &quot;string&quot;,
-      &quot;defaultrule_policyset&quot;: true,
-      &quot;disabled&quot;: true,
-      &quot;disabled_reason&quot;: &quot;string&quot;,
-      &quot;id&quot;: &quot;string&quot;,
-      &quot;inactive&quot;: true,
-      &quot;inactive_reason&quot;: &quot;string&quot;,
-      &quot;name&quot;: &quot;string&quot;,
-      &quot;policy_req_version&quot;: &quot;string&quot;,
-      &quot;policy_rules&quot;: [
+    &quot;_etag&quot;: 0,
+    &quot;_content_length&quot;: &quot;6506&quot;,
+    &quot;_schema&quot;: 0,
+    &quot;_created_on_utc&quot;: 17574034316710056,
+    &quot;_updated_on_utc&quot;: 0,
+    &quot;_status_code&quot;: &quot;200&quot;,
+    &quot;_request_id&quot;: &quot;1757403431656017800008278162443414534459&quot;,
+    &quot;count&quot;: 14,
+    &quot;items&quot;: [
         {
-          &quot;app_def_ids&quot;: [
-            &quot;string&quot;
-          ],
-          &quot;destination_prefixes_id&quot;: &quot;string&quot;,
-          &quot;enabled&quot;: true,
-          &quot;id&quot;: &quot;string&quot;,
-          &quot;name&quot;: &quot;string&quot;,
-          &quot;network_context_id&quot;: &quot;string&quot;,
-          &quot;order_number&quot;: 0,
-          &quot;paths_allowed&quot;: {
-            &quot;active_paths&quot;: [
-              {
-                &quot;label&quot;: &quot;string&quot;,
-                &quot;path_type&quot;: &quot;vpn&quot;
-              }
-            ],
-            &quot;backup_paths&quot;: [
-              {
-                &quot;label&quot;: &quot;string&quot;,
-                &quot;path_type&quot;: &quot;vpn&quot;
-              }
-            ],
-            &quot;l3_failure_paths&quot;: [
-              {
-                &quot;label&quot;: &quot;string&quot;,
-                &quot;path_type&quot;: &quot;vpn&quot;
-              }
-            ]
-          },
-          &quot;service_context&quot;: {
-            &quot;active_service_label_id&quot;: &quot;string&quot;,
-            &quot;active_service_label_type&quot;: &quot;CG_TRANSIT&quot;,
-            &quot;backup_service_label_id&quot;: &quot;string&quot;,
-            &quot;backup_service_label_type&quot;: &quot;CG_TRANSIT&quot;,
-            &quot;type&quot;: &quot;ALLOWED_TRANSIT&quot;
-          },
-          &quot;source_prefixes_id&quot;: &quot;string&quot;,
-          &quot;tags&quot;: [
-            &quot;string&quot;
-          ]
+            &quot;id&quot;: &quot;1752146305974022045&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17521463059740220,
+            &quot;_updated_on_utc&quot;: 17521463059740220,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;CHecking_Peer&quot;,
+            &quot;description&quot;: &quot;test&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1744798901121003245&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17447989011210032,
+            &quot;_updated_on_utc&quot;: 17447989011210032,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;Default Path Simple Stack Default Rule Policy Set (Simple)&quot;,
+            &quot;description&quot;: null,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: true
+        },
+        {
+            &quot;id&quot;: &quot;1744798901333008145&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17447989013330081,
+            &quot;_updated_on_utc&quot;: 17447989013330081,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;Default Path Simple Stack Policy Set (Simple)&quot;,
+            &quot;description&quot;: null,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1755424989855011545&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17554249898550115,
+            &quot;_updated_on_utc&quot;: 17554249898550115,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site2_007_0a006c7f&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site2_007_0a006c7f&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1756398285416022845&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17563982854160228,
+            &quot;_updated_on_utc&quot;: 17563982854160228,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site2_149_02773a32&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site2_149_02773a32&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752151610928022045&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17521516109280220,
+            &quot;_updated_on_utc&quot;: 17521516109280220,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site2_841_2cbaf4ce&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site2_841_2cbaf4ce&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752157960353004545&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17521579603530045,
+            &quot;_updated_on_utc&quot;: 17521579603530045,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site2_865_c58398dd&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site2_865_c58398dd&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752238976366003345&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17522389763660033,
+            &quot;_updated_on_utc&quot;: 17522389763660033,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site2_919_0a006c7f&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site2_919_0a006c7f&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1755425570923000245&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17554255709230002,
+            &quot;_updated_on_utc&quot;: 17554255709230002,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site_008_58461b0a&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site_008_58461b0a&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1756379802671013345&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17563798026710133,
+            &quot;_updated_on_utc&quot;: 17563798026710133,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site_708_58461b1b&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site_708_58461b1b&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752152757923006545&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17521527579230065,
+            &quot;_updated_on_utc&quot;: 17521527579230065,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site_841_2cbaf4ce&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site_841_2cbaf4ce&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752158035062017445&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17521580350620174,
+            &quot;_updated_on_utc&quot;: 17521580350620174,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site_865_c58398dd&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site_865_c58398dd&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1752237626958000945&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17522376269580009,
+            &quot;_updated_on_utc&quot;: 17522376269580009,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;OPSLAB_site_919_0a006c7f&quot;,
+            &quot;description&quot;: &quot;OPSLAB_site_919_0a006c7f&quot;,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
+        },
+        {
+            &quot;id&quot;: &quot;1751534302082002545&quot;,
+            &quot;_etag&quot;: 1,
+            &quot;_schema&quot;: 1,
+            &quot;_created_on_utc&quot;: 17515343020820025,
+            &quot;_updated_on_utc&quot;: 17515343020820025,
+            &quot;_debug&quot;: null,
+            &quot;_info&quot;: null,
+            &quot;_warning&quot;: null,
+            &quot;_error&quot;: null,
+            &quot;name&quot;: &quot;test_failover&quot;,
+            &quot;description&quot;: null,
+            &quot;tags&quot;: null,
+            &quot;clone_from&quot;: null,
+            &quot;defaultrule_policyset&quot;: false
         }
-      ],
-      &quot;region&quot;: &quot;string&quot;,
-      &quot;send_to_element&quot;: true,
-      &quot;tags&quot;: [
-        &quot;string&quot;
-      ]
-    }
-  ]
+    ]
 }</content>
   </example>
   <command name="IMPORT">
@@ -142,5 +312,5 @@
   </command>
   <command name="LIST"/>
   <displayName>Policy Sets</displayName>
-  <order>0</order>
+  <order>1</order>
 </ObjectDefinition>
