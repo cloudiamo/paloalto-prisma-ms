@@ -20,7 +20,7 @@ then
 fi
 cd / || exit 1
 
-if [[ -d /opt/fmc_repository/paloalto-prisma-ms/.git ]]; then
+if [[ -d /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms/.git ]]; then
 	log_info "👾 Skipping upgrade for fellow developer."
 	exit 0
 fi

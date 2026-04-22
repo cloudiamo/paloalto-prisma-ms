@@ -7,21 +7,21 @@ ENV BIN_DIR=/opt/fmc_repository/Process/PythonReference/bin
 RUN install_default_dirs.sh
 
 # Install paloalto-prisma-ms {{{
-COPY --chown=1000:1000 . /opt/fmc_repository/paloalto-prisma-ms
-RUN install_repo_deps.sh /opt/fmc_repository/paloalto-prisma-ms/
+COPY --chown=1000:1000 . /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms
+RUN install_repo_deps.sh /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms/
 
 # Cleanup repository {{{
-RUN rm -rf /opt/fmc_repository/paloalto-prisma-ms/{.git,docker,Dockerfile}
+RUN rm -rf /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms/{.git,docker,Dockerfile}
 # }}}
 # Build tarball {{{
 RUN echo "⏳ Creating fmc-repository.tar.xz" && \
     chmod a+w -R /opt/fmc_repository/ && \
-    tar cf fmc-repository.tar.xz --exclude-vcs /opt/fmc_repository/ -I 'xz -T0' --checkpoint=1000 --checkpoint-action=echo='%{%Y-%m-%d %H:%M:%S}t ⏳ \033[1;37m(%d sec)\033[0m: \033[1;32m#%u\033[0m, \033[0;33m%{}T\033[0m'
+    tar cf fmc-repository.tar.xz --exclude-vcs /opt/fmc_repository/CommandDefinition/ -I 'xz -T0' --checkpoint=1000 --checkpoint-action=echo='%{%Y-%m-%d %H:%M:%S}t ⏳ \033[1;37m(%d sec)\033[0m: \033[1;32m#%u\033[0m, \033[0;33m%{}T\033[0m'
 # }}}
 
 FROM docker.io/ubiqube/ubi-almalinux10:latest
 # Copy all resources to the final image {{{
-RUN mkdir -p /opt/fmc_repository && chown -R 1000:1000 /opt/fmc_repository
+RUN mkdir -p /opt/fmc_repository/CommandDefinition && chown -R 1000:1000 /opt/fmc_repository
 USER 1000
 COPY --from=builder /home/ncuser/*.xz /home/ncuser/
 COPY docker-entrypoint.sh /
