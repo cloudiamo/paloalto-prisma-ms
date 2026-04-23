@@ -29,7 +29,7 @@ fi
 if [[ -e /opt/fmc_repository/paloalto-prisma-ms/.git ]]; then
 	log_info "🦖 Moving existing git repository to /opt/fmc_repository/CommandDefinition for backend compatibility."
 	mkdir -p /opt/fmc_repository/CommandDefinition
-	mv /opt/fmc_repository/paloalto-prisma-ms /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms
+	mv /opt/fmc_repository/paloalto-prisma-ms /opt/fmc_repository/CommandDefinition/
 elif [[ -d /opt/fmc_repository/paloalto-prisma-ms ]]; then
 	log_info "🐞 Not a git repository. Removing the directory for backend compatibility."
 	rm -rf  /opt/fmc_repository/paloalto-prisma-ms/
