@@ -21,8 +21,8 @@ fi
 cd / || exit 1
 
 if [[ -L /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms ]]; then
-	rm -f /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms
 	log_info "🍄 Removing symlink."
+	rm -f /opt/fmc_repository/CommandDefinition/paloalto-prisma-ms
 fi
 
 # for backward compatibility with old backend, move existing repository to CommandDefinition
